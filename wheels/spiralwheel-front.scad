@@ -4,19 +4,21 @@
 **************************************************/
 // https://www.thingiverse.com/thing:17514/files
 dia_in = 1;
-dia_out = 60;
-spoke_count = 6;
-spoke_thickness = 0.5;
-tread_thickness = 0.5;
-hub_thickness = 5;
-height = 15;
+dia_out = 55;// Default 40
+spoke_count = 6; // Default 4
+spoke_thickness = 0.5; //Default 0.5
+tread_thickness = 0.5; //Default 0.5
+hub_thickness = 7;
+height = 10;
 $fn = 30;
 spoke_dia = (dia_in/2) + hub_thickness + (dia_out/2) - tread_thickness+spoke_thickness;
-grip_density = 0.05; // Set to 0 for no grip.
+grip_density = 0.05;//0.05; // Set to 0 for no grip.
 grip_height = 1.;
-grip_depth = 2;
+grip_depth = 3;
 pi = 3.14159;
 zff = 0.001;
+print_wheel = false;
+print_washer = true;
 
 //Set to 1 for a double spiral.
 // Note: single-wall spokes probably won't work with double spirals, as the
@@ -76,11 +78,30 @@ module spoke()
 	}
 }
 
-rotate([0,180,0]) {
-    difference() {
-        wheel();
-        //cylinder(h=10, r=6, center=false);
-        cylinder(h=height, r1=3.3, r2=3.5, center=false);
-        cylinder(h=height - 7.3, r=4, center=false);
+if (print_wheel) {
+    mirror([0,0,1]) {
+        translate([0,0,-height]) {
+            difference() {
+                wheel();
+                
+                // Center of the wheel
+                cylinder(h=height, r1=3.6, r2=3.6, center=false);
+                cylinder(h=height - 3.2, r=5.15, center=false);
+            }
+        }
     }
+    
+}
+
+//Washer
+if (print_washer) {
+    translate([0,dia_out/2 + 15,0]) {
+        
+        difference() {
+            // Center of the wheel
+            cylinder(h=2, r1=hub_thickness, r2=hub_thickness, center=false);
+            cylinder(h=2, r=3.6, center=false);
+        }
+
+    }    
 }
