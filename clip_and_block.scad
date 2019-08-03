@@ -1,12 +1,12 @@
 size =9.6;
-model = "FH";
+model = "F";
 
-length1 = 4;
-length2 =4;
-length3 = 3 ;
+length1 = 1;
+length2 =6;
+length3 = 1 ;
 
-filename = "oled-128x64-top";
-holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]];
+filename = "18650x2-holder";
+holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[-1,3,0],[-1,4,0]];
 
 cube_turn = 0; //(0 => No turn, 1=> 1 turn, 2 => 2 turns)
 
