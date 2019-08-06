@@ -1,7 +1,7 @@
 size =9.6;
-model = "F";
+model = "IS";
 
-length1 = 1;
+length1 = 4;
 length2 =6;
 length3 = 1 ;
 
@@ -23,6 +23,14 @@ if (model == "I") {
             echo (x);
             translate([0,x*size,0]) holeCube();
         }
+    }
+}
+
+// Model IS (superposed)
+if (model == "IS") {
+    for (x = [0:length1-1]) {
+        echo (x);
+        translate([0,0,x*size/2]) holeCube();
     }
 }
 
