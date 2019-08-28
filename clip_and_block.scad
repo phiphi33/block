@@ -5,7 +5,7 @@ length1 = 1;
 length2 =3;
 length3 = 3 ;
 
-filename = "18650x2-holder";
+filename = "dc-motor-v2";
 holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[-1,3,0],[-1,4,0]];
 
 //rounded = 0; //(0 => No turn, 1=> 1 turn, 2 => 2 turns)
