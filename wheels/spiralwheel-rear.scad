@@ -4,12 +4,13 @@
 **************************************************/
 // https://www.thingiverse.com/thing:17514/files
 dia_in = 1;
-dia_out = 55;
-spoke_count = 6;
+dia_out = 7;//65;
+spoke_count = 8;
 spoke_thickness = 0.5;
 tread_thickness = 0.5;
 hub_thickness = 5;
 height = 10;
+washer_height = 4;
 $fn = 30;
 spoke_dia = (dia_in/2) + hub_thickness + (dia_out/2) - tread_thickness+spoke_thickness;
 grip_density = 0.05; // Set to 0 for no grip.
@@ -19,7 +20,7 @@ pi = 3.14159;
 zff = 0.001;
 
 print_wheel = true;
-print_washer = false;
+
 
 //Set to 1 for a double spiral.
 // Note: single-wall spokes probably won't work with double spirals, as the
@@ -79,33 +80,34 @@ module spoke()
 	}
 }
 if (print_wheel) {
+    
     mirror([0,0,1]) {
         translate([0,0,-height]) {
+            
             difference() {
-                wheel();
+                union() {
+                    translate([0,0,-washer_height]) {
+                        cylinder(h=height + washer_height, r=hub_thickness);
+                    }
+                    wheel();
+                }
+                
                 //cylinder(h=10, r=4 , center=false);
-                cylinder(h=7, r1=2.7, r2=2.55 , center=false);
+                translate([0,0,-washer_height]) {
+                    cylinder(h=7+washer_height, r1=3, r2=2.55 , center=false);
+                }
+                
+
             }
 
-            translate([1.9,-3,0])
+            translate([1.9,-3,0-washer_height])
                 cube([2,6,6]);
 
-            translate([-1.9-2,-3,0])
+            translate([-1.9-2,-3,0-washer_height])
                 cube([2,6,6]);
             
         }
     }
 }
 
-//Washer
-if (print_washer) {
-    translate([0,dia_out/2 + 15,0]) {
-        
-        difference() {
-            // Center of the wheel
-            cylinder(h=4, r1=hub_thickness, r2=hub_thickness, center=false);
-            cylinder(h=4, r=2.7, center=false);
-        }
 
-    }    
-}

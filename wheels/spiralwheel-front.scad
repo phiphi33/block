@@ -4,8 +4,8 @@
 **************************************************/
 // https://www.thingiverse.com/thing:17514/files
 dia_in = 1;
-dia_out = 55;// Default 40
-spoke_count = 6; // Default 4
+dia_out = 65;// Default 40
+spoke_count = 8; // Default 4
 spoke_thickness = 0.5; //Default 0.5
 tread_thickness = 0.5; //Default 0.5
 hub_thickness = 7;
@@ -99,8 +99,8 @@ if (print_washer) {
         
         difference() {
             // Center of the wheel
-            cylinder(h=2, r1=hub_thickness, r2=hub_thickness, center=false);
-            cylinder(h=2, r=3.6, center=false);
+            cylinder(h=1.5, r1=hub_thickness, r2=hub_thickness, center=false);
+            cylinder(h=1.5, r=3.6, center=false);
         }
 
     }    

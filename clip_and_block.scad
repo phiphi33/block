@@ -1,47 +1,54 @@
 size =9.6;
-model = "IS";
+model = "IR";
 
-length1 = 4;
-length2 =6;
-length3 = 1 ;
+length1 = 1;
+length2 =3;
+length3 = 3 ;
 
 filename = "18650x2-holder";
 holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[-1,3,0],[-1,4,0]];
 
-cube_turn = 0; //(0 => No turn, 1=> 1 turn, 2 => 2 turns)
+//rounded = 0; //(0 => No turn, 1=> 1 turn, 2 => 2 turns)
 
 // Model I
 if (model == "I") {
     for (x = [0:length1-1]) {
-        if (cube_turn >= 1 && x==0) {
-            rotate([180,0,0]) {
-                translate([0,x*size-size,-size/2]) import("imports/hole-cube-turn.stl");
-            }
-        }  else if(cube_turn == 2 && x==length1-1) {
-            translate([0,x*size,0]) import("imports/hole-cube-turn.stl");
-        } else {
-            echo (x);
-            translate([0,x*size,0]) holeCube();
-        }
+        echo (x);
+        translate([0,x*size,0]) holeCube();
     }
 }
 
-// Model IS (superposed)
-if (model == "IS") {
-    for (x = [0:length1-1]) {
-        echo (x);
-        translate([0,0,x*size/2]) holeCube();
+// Model IR (Rounded)
+if (model == "IR") {
+    if (length1 == 1) {
+        import("imports/hole-cube-turn-1.stl");
+    } 
+    else 
+    {
+        
+        for (x = [0:length1-1]) {
+            if (x==0) {
+                rotate([180,0,0]) {
+                    translate([0,x*size-size,-size/2]) import("imports/hole-cube-turn.stl");
+                }
+            }  else if(x==length1-1) {
+                translate([0,x*size,0]) import("imports/hole-cube-turn.stl");
+            } else {
+                echo (x);
+                translate([0,x*size,0]) holeCube();
+            }
+        }
     }
 }
 
 // Model IH (I Half)
 if (model == "IH") {
     for (x = [0:length1-1]) {
-        if (cube_turn >= 1 && x==0) {
+        if (x==0) {
             rotate([0,0,180]) {
                 translate([-size,-size,0]) import("imports/hole-cube-half-turn.stl");
             }
-        }  else if(cube_turn == 2 && x==length1-1) {
+        }  else if(x==length1-1) {
             translate([0,x*size,0]) import("imports/hole-cube-half-turn.stl");
         } else {
             echo (x);
@@ -50,17 +57,41 @@ if (model == "IH") {
     }
 }
 
+// Model IHR (Rounded)
+if (model == "IHR") {
+    for (x = [0:length1-1]) {
+        if (x==0) {
+            rotate([0,0,180]) {
+                translate([-size,-size,0]) import("imports/hole-cube-half-turn.stl");
+            }
+        }  else if(x==length1-1) {
+            translate([0,x*size,0]) import("imports/hole-cube-half-turn.stl");
+        } else {
+            echo (x);
+            translate([0,x*size,0]) holeCubeHalf();
+        }
+    }
+}
+
+// Model C (Cube)
+if (model == "C") {
+    for (z = [0:length1-1]) {
+       for (x = [0:length2-1]) {
+           for (y = [0:length3-1]) {           
+               echo (x);
+               translate([y*size,x*size,z*size/2]) holeCube();                          
+           }
+       }        
+    }
+}
+
+
+
 //Model LF (L Flat)
 if (model == "LF") {
     for (x = [0:length1-1]) {
-        if (cube_turn >= 1 && x==0) {
-            rotate([180,0,0]) {
-                translate([0,x*size-size,-size/2]) import("imports/hole-cube-turn.stl");
-            }
-        }   else {
-            echo (x);
-            translate([0,x*size,0]) holeCube();
-        }
+        echo (x);
+        translate([0,x*size,0]) holeCube();
     }
    for (x = [0:length2-1]) {
         translate([x*size,(length1-1)*size,0]) holeCube();
