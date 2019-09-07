@@ -1,12 +1,12 @@
 size =9.6;
-model="F";
+model="FH";
 
 length1=2;
 length2=1;
 length3=2 ;
 
-filename="battery-shield-bottom.stl";
-holeArray=[[-1,-1,0],[-2,-1,0]];
+filename="bme280.stl";
+holeArray=[[-1,0, 0],[2,0, 0]];
 
 finalRotate=[270,0,0];
 finalMirror=[0,1,0];

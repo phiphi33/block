@@ -2,6 +2,7 @@ openscad -o ./stl/electronic/battery-shield-bottom-1.stl clip_and_block.scad -D 
 openscad -o ./stl/electronic/battery-shield-bottom-2.stl clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-bottom.stl\" -D holeArray=[[-1,-1,0],[-2,-1,0]] -D finalRotate=[270,0,0] -D finalMirror=[0,1,0]
 openscad -o ./stl/electronic/battery-shield-usb-1.stl clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-usb.stl\" -D holeArray=[[0,0,0]] -D finalRotate=[90,0,0] -D finalMirror=[0,0,0]
 openscad -o ./stl/electronic/battery-shield-usb-2.stl clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-usb.stl\" -D holeArray=[[0,0,0],[1,0,0]] -D finalRotate=[90,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/electronic/bme280.stl clip_and_block.scad -D model=\"FH\" -D filename=\"bme280.stl\" -D holeArray=[[-1,0,0],[2,0,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
 openscad -o ./stl/electronic/l9110s-side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"l9110s.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[0,3,0],[1,3,0],[2,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
 openscad -o ./stl/electronic/l9110s-bottom.stl clip_and_block.scad -D model=\"FH\" -D filename=\"l9110s.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
 openscad -o ./stl/electronic/nodemcu-top-small.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top-small.stl\" -D holeArray=[[0,-1,0],[0,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
