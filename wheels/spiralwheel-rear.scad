@@ -4,7 +4,7 @@
 **************************************************/
 // https://www.thingiverse.com/thing:17514/files
 dia_in = 1;
-dia_out = 7;//65;
+dia_out = 65;//65;
 spoke_count = 8;
 spoke_thickness = 0.5;
 tread_thickness = 0.5;
