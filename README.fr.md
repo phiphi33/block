@@ -28,7 +28,7 @@ Pour commencer, vous aller imprimer vos premières plaques, clips et bloqueurs :
 
 ![Première plaque](docs/first-plate.png)
 
-Notez qu'il ne faut pas beaucoup de plastique pour ces plaques de base (2g et 0.83m avec mes réglages pour ces 4 pièces). Après plusieurs essais, je suis parti sur une taille, pour un trou de 9.6mm x 9.6mm x 4.8mm. Plus petit, les manipulations deviennent difficiles.
+Notez qu'il ne faut pas beaucoup de plastique pour ces plaques de base (2g et 0.83m avec mes réglages pour ces 4 pièces). Après plusieurs essais, je suis parti sur une taille, pour un trou de 9.6mm x 9.6mm x 4.8mm. Plus petit, les manipulations deviennent difficiles (mais peut-être qu'il faudrait que je teste à nouveau en 6.4mm x 6.4mm x 3.2mm).
 
 Vous pouvez maintenant assembler ces pièces !
 
@@ -77,11 +77,38 @@ Pour automtiser la génération des fichiers STL, j'ai créé le fichier *list-p
 Le fichier *generate-plates.py* lit ce fichier et lance la commande OpenSCAD avec les paramètres qui vont bien.
 
 ## Les plaques pour composants électroniques
-
+C'est ici la partie intéressante du projet : pouvoir intégrer des composants electroniques, des leds, dans nos montages.
 
 ### Les composants pris en charge
+Comme pour les plaques, j'ai créé un certain nombre de plaques qui permettent d'inclure des composants. Ils se trouvent dans le répertoir [stl/electronic](https://gitlab.com/tedour/clip-and-block/-/blob/master/stl/electronic).
+
+Voici par exemple les deux plaques qui permettent d'inclure un NodeMCU (J'utilise beaucoup ce composant) :
+![NodeMCU](docs/nodemcu.png)
+
+Il existe bien d'autres variantes de ces plaques, avec plus ou moins de trous, des trous d'un seul côté, etc.
+
+TODO: Photo en réél
+
+Voici la liste des composants que j'ai intégré dans mes montages :
+
+|  Nom | Image | Description |
+| ---: | :----: | :-----------|
+|18650x2 Batterie holder | ![18650](docs/electronics/18650x2.jpg) | Alimentation 7.4v |
+|18650 Batterie shield V3 | ![18650](docs/electronics/shield_v3.jpg) | Alimentation USB + 3.3V + 5V + Recharge |
+| BME 280 | ![BME280](docs/electronics/bme280.jpg) | Température + Pression |
+| Breadboard 25 trous | ![breadboard25](docs/electronics/breadboard-25.jpg) | Connexion |
+| Button 14x20 | ![button](docs/electronics/button14_20.jpg) | Boutton |
+| D1 Mini | ![D1-mini](docs/electronics/D1-mini.jpg) | Carte développement |
+| DC Motor with gearbox | ![DC-motor](docs/electronics/dc-geared.jpg) | Moteur démultiplié |
+| L9110s Driver motor | ![l9110S](docs/electronics/l9110s.jpg) | Driver moteur DC
+| NodeMCU | ![nodemcu](docs/electronics/esp8266.jpg) | Carte développement |
+| Oled 128x64 | ![oled](docs/electronics/oled128x64.jpg) | Afficheur OLED |
+| SG90 (Une seule variante, à améliorer) | ![oled](docs/electronics/sg90.jpg) | Servo moteur |
+| Simple switch | |
+| Afficheur TM1637 | ![TM1637](docs/electronics/tm1637.jpg) | Afficheur 4x7 segments |
 
 ### Créer ses plaques pour ses composants
+
 
 #### Créer son .stl
 
@@ -93,7 +120,7 @@ Le fichier *generate-plates.py* lit ce fichier et lance la commande OpenSCAD ave
 
 ## La suite ?
 - Tester
-- Sécuriser les connecteurs
+- Sécuriser les connecteurs / passe fils
 - Créer des plaques *décoratives*
 
 ### Comment aider ?
