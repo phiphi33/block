@@ -104,17 +104,42 @@ Voici la liste des composants que j'ai intégré dans mes montages :
 | NodeMCU | ![nodemcu](docs/electronics/esp8266.jpg) | Carte développement |
 | Oled 128x64 | ![oled](docs/electronics/oled128x64.jpg) | Afficheur OLED |
 | SG90 (Une seule variante, à améliorer) | ![oled](docs/electronics/sg90.jpg) | Servo moteur |
-| Simple switch | |
+| Simple switch | ![TM1637](docs/electronics/interrupteur.jpg) | interrupteur
 | Afficheur TM1637 | ![TM1637](docs/electronics/tm1637.jpg) | Afficheur 4x7 segments |
 
+> Il existe plusieurs variantes pour chaque composant, je vous laisse les découvrir.
+
 ### Créer ses plaques pour ses composants
+Comme pour les plaques, vous pouvez créer vos propres plaques pour vos composants. Pour cela, vous devez modéliser une pièce autour de votre composant avec votre modeleur préféré.
 
+Vous pourrez ensuite ajouter des trous grâce à OpenSCAD.
 
-#### Créer son .stl
+#### Créer son .stl pour son composant
+
+Voici par exemple comment j'ai procédé pour l'afficheur TM1637 :
+- Pris en compte des dimenssions de l'afficheur
+- Création d'une "boîte" autour du composant qui est un multiple de 9.6 (Ici, 48mm x 28.8mm x 4.8mm)
+- Si cela n'est pas possible autrement, faire un dessus et un dessous pour le composant
+
+Dessous :
+
+![TM1637](docs/tm1637-bottom.png)
+
+Dessus :
+
+![TM1637](docs/tm1637-top.png)
 
 #### Ajouter ses blocs avec openscad
 
-#### Utiliser list-elec.csv
+Ensuite, il est possible d'ajouter les trous autour de votre montage grâce à OpenSCAD :
+- Ouvrez le fichier [clip_and_block.scad](https://gitlab.com/tedour/clip-and-block/-/blob/master/clip_and_block.scad)
+- Déposez votre fichier STL dans le dossier [import](https://gitlab.com/tedour/clip-and-block/-/blob/master/import)
+- Modifiez le paramètre **model** pour le type de plaque à **F** (Filename). Pour des trous de demi hauteur, choisissez **FH**.
+- Dans le tableau **holeArray**, entrez les coordonées de vos trous (Il faut tester pour trouver les bons)
+- Dans le tableau **finalRotate** vous pouvez tourner votre model final pour qu'il soit à plat
+- Dans le tableau **finalMirror** vous pouvez faire un flip de votre modèle
+
+#### Utiliser le fichier list-elec.csv le script generate-elec.py
 
 ## Mes réalisations
 

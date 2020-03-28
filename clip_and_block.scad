@@ -1,9 +1,9 @@
 size =9.6;
-model="I";
+model="P";
 
 length1=2;
-length2=1;
-length3=2 ;
+length2=3;
+length3=3 ;
 
 filename="bme280.stl";
 holeArray=[[-1,0, 0],[2,0, 0]];
@@ -11,7 +11,6 @@ holeArray=[[-1,0, 0],[2,0, 0]];
 //finalRotate=[270,0,0];
 //finalMirror=[0,1,0];
 
-//rounded = 0; //(0 => No turn, 1=> 1 turn, 2 => 2 turns)
 rotate([finalRotate[0], finalRotate[1], finalRotate[2]]) {
 mirror([finalMirror[0], finalMirror[1], finalMirror[2]]) {    
     // Model I
