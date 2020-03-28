@@ -1,5 +1,5 @@
 import os
-for line in open('list.txt'):
+for line in open('list-plates.txt'):
     line = line.rstrip('\n')
     #print(line)
     params = line.split("-")

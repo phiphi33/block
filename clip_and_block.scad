@@ -1,5 +1,5 @@
 size =9.6;
-model="FH";
+model="I";
 
 length1=2;
 length2=1;
@@ -8,8 +8,8 @@ length3=2 ;
 filename="bme280.stl";
 holeArray=[[-1,0, 0],[2,0, 0]];
 
-finalRotate=[270,0,0];
-finalMirror=[0,1,0];
+//finalRotate=[270,0,0];
+//finalMirror=[0,1,0];
 
 //rounded = 0; //(0 => No turn, 1=> 1 turn, 2 => 2 turns)
 rotate([finalRotate[0], finalRotate[1], finalRotate[2]]) {
@@ -48,16 +48,8 @@ mirror([finalMirror[0], finalMirror[1], finalMirror[2]]) {
     // Model IH (I Half)
     if (model == "IH") {
         for (x = [0:length1-1]) {
-            if (x==0) {
-                rotate([0,0,180]) {
-                    translate([-size,-size,0]) import("imports/hole-cube-half-turn.stl");
-                }
-            }  else if(x==length1-1) {
-                translate([0,x*size,0]) import("imports/hole-cube-half-turn.stl");
-            } else {
-                echo (x);
-                translate([0,x*size,0]) holeCubeHalf();
-            }
+            echo (x);
+            translate([0,x*size,0]) holeCubeHalf();
         }
     }
 
