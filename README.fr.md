@@ -72,7 +72,7 @@ Voici par exemple comment créer une plaque P-2-3 (Plaque à plat en 2x3).
 ![OpenSCAD](docs/openscad-plate.png)
 
 ### Le fichier list-plates.txt et le script generate-plates.py
-Pour automtiser la génération des fichiers STL, j'ai créé le fichier *list-plates.txt* qui liste toutes les plaques. 
+Pour automatiser la génération des fichiers STL, j'ai créé le fichier *list-plates.txt* qui liste toutes les plaques. 
 
 Le fichier *generate-plates.py* lit ce fichier et lance la commande OpenSCAD avec les paramètres qui vont bien.
 
@@ -139,13 +139,62 @@ Ensuite, il est possible d'ajouter les trous autour de votre montage grâce à O
 - Dans le tableau **finalRotate** vous pouvez tourner votre model final pour qu'il soit à plat
 - Dans le tableau **finalMirror** vous pouvez faire un flip de votre modèle
 
+![TM1637](docs/tm1637-openscad.png)
+
 #### Utiliser le fichier list-elec.csv le script generate-elec.py
+Comme pour les plaques, j'ai automatisé la génération des fichiers STL. K'ai créé le fichier *list-elec.csv* qui liste toutes les plaques pour composants. 
+
+Vous pouvez voir que dans ce fichier, vous pouvez indiquer toutes les options. Je vais peut-être le fusionner avec le fichier *list-plates.txt*.
+
+![list-elec](docs/list-elec-csv.png)
+
+Le fichier *generate-plates.py* lit ce fichier et lance la commande OpenSCAD avec les paramètres.
 
 ## Mes réalisations
 
+Voici ce que j'ai réalisé avec les clip and blocks, je pourrais, si vous le demandez, détailler ces projets :
+
+- [Virtual Wall Roomba](https://www.thingiverse.com/thing:3413412) (Mur virtuel pour aspirateur automatique)
+![Virtual Wall](docs/projects/virtual_wall1.jpg)
+![Virtual Wall](docs/projects/virtual_wall2.jpg)
+
+- [Sablier électronique](https://www.thingiverse.com/thing:3413412) (Pour ne pas avoir à rapeller l'heure le matin à mes enfants :))
+![Sablier](docs/projects/sablier1.jpg)
+![Sablier](docs/projects/sablier2.jpg)
+![Sablier](docs/projects/sablier3.jpg)
+
+- Micro tracteur télécommandé (Basé sur le projet [FF RC-Car](https://www.thingiverse.com/thing:3133996))
+![Sablier](docs/projects/tracteur1.jpg)
+![Sablier](docs/projects/tracteur2.jpg)
+
+Ces projets fonctionnent plutôt bien, et je m'en sers régulièrement. Voici pour moi les qualités et les défauts de Clip & blocks :
+
+Qualités :
+- Solidité 
+- Facile de faire des modifications
+- Pas besoin de réimprimer l'ensemble pour les modifications
+
+Défaults :
+- Manque de parties esthétiques (caches, couvercles, etc)
+- Sécurisation des connexions Dupont
+- Organisation des fils
+
+
 ## La suite ?
-- Tester
-- Sécuriser les connecteurs / passe fils
+J'ai un petit peu abandonné ce projet depuis quelques mois, suite à une charge de travail importante.
+Cependant, je trouve dommage de le laisser à l'abandon, c'est pourquoi je vous demande de l'aide. Alors, de quoi ai-je besoin ?
+
+### Tester
+La première chose que j'aimerais savoir c'est si ce projet fonctionne chez vous, si cela peut répondre à un besoin (ou le créer ?). Donc, merci de tester et de suivre la premuière partie de ce tutoriel !
+
+### Créer une communauté
+Jusqu'à maintenant, je n'ai que mon [GitLab](https://gitlab.com/tedour/clip-and-block). Mais je viens de créer un compte Mastodon pour discuter / échanger.
+
+### Quelques idées d'évolutions
+- Ajouter des composants (selon vos besoins)
+- Sécuriser les connecteurs / créer passe fils
 - Créer des plaques *décoratives*
 
-### Comment aider ?
+
+
+

@@ -1,15 +1,15 @@
 size =9.6;
-model="P";
+model="F";
 
 length1=2;
 length2=3;
 length3=3 ;
 
-filename="bme280.stl";
-holeArray=[[-1,0, 0],[2,0, 0]];
+filename="TM1637-bottom.stl";
+holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]];
 
-//finalRotate=[270,0,0];
-//finalMirror=[0,1,0];
+finalRotate=[0,0,0];
+finalMirror=[0,0,0];
 
 rotate([finalRotate[0], finalRotate[1], finalRotate[2]]) {
 mirror([finalMirror[0], finalMirror[1], finalMirror[2]]) {    
