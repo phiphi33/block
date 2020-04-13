@@ -1,32 +1,37 @@
-# Clip and block
-Clip & block est un projet pour vos montages électroniques à partir d'Arduino et de composants populaires autour d'Arduino. Il permet d'imprimer des support avec une imprimante 3D pour vos montages.
+> Ce document a été réalisé pour un journal sur [linuxfr](https://www.linuxfr.org)
 
-Image d'exemple
+
+# Clip and block
+Clip & block permet de créer des structures solides avec une imprimante 3D pour les projets électroniques basés sur Arduino.
+Vous avez à votre disposition des plaques qu'il est possible d'assembler et de démonter facilement pour ajouter et retirer différents composants.
+
+> Vous pouvez aller voir à la fin de cette dépèche pour visualiser quelques exemples de réalisation.
 
 ## Démarrer avec Clip & block en une heure
 
 ### Imprimer vos premier Clip & block
-J'ai concu Clip & blocks pour que ce soit simple à imprimer (Pas de support, possibilité de l'imprimer dans tous les sens, pas trop de précision nécessaire).
-Le principe et d'imprimer des plaques de base, de les assembler avec des clips et de bloquer ces clips avec des bloqueurs.
+J'ai concu Clip & blocks pour que ce soit simple à imprimer (Pas de support, possibilité de l'imprimer dans tous les sens, pas trop de précision nécessaire car les formes sont simples).
 
-Pour commencer, vous aller imprimer vos premières plaques, clips et bloqueurs : 
+Vous pouvez cloner le projet sur [Gitlab](https://gitlab.com/tedour/clip-and-block/)
+
+Pour commencer, vous aller imprimer vos deux premières plaques, clips et bloqueurs : 
 
 #### Pour les plaques
 - aller dans le répertoire [basic](https://gitlab.com/tedour/clip-and-block/-/tree/master/stl/basic),
-- imprimer une plaque [I-3.stl](https://gitlab.com/tedour/clip-and-block/-/blob/master/stl/basic/I-3.stl),
-- imprimer une plaque [I-4.stl](https://gitlab.com/tedour/clip-and-block/-/blob/master/stl/basic/I-4.stl).
+- récupérer une plaque [I-3.stl](https://gitlab.com/tedour/clip-and-block/-/blob/master/stl/basic/I-3.stl),
+- récupérer une plaque [I-4.stl](https://gitlab.com/tedour/clip-and-block/-/blob/master/stl/basic/I-4.stl).
 
-> I-2.stl => La lettre I désigne la forme de la plaque, le chiffre 2 indique le nombre de trous
+> I-3.stl => La lettre I désigne la forme de la plaque, le chiffre 3 indique le nombre de trous
 
 
 #### Pour le clip et bloqueur
 - aller dans le répertoire [clips](https://gitlab.com/tedour/clip-and-block/-/tree/master/stl/clips),
-- imprimer un [blocker-2.stl](https://gitlab.com/tedour/clip-and-block/-/blob/master/stl/clips/blocker-2.stl) (de préférence, le mettre à plat, cela se fait très bien avec Cura),
-- imprimer un [clip-2.stl]() (comme pour le bloqueur, le mettre à plat, en le tournant à 90°).
+- récupérer un [blocker-2.stl](https://gitlab.com/tedour/clip-and-block/-/blob/master/stl/clips/blocker-2.stl) (de préférence, le mettre à plat, cela se fait très bien avec Cura),
+- récupérer un [clip-2.stl]() (comme pour le bloqueur, le mettre à plat, en le tournant à 90°).
 
-> Le blocker-2.stl va fonctionner avec le clip-2.stl. Le chiffre 2 indique la hauteur du clip (2 trous)
+> Le chiffre 2 indique la hauteur du clip (2 trous). Le blocker-2.stl va fonctionner avec le clip-2.stl. 
 
-![Première plaque](docs/first-plate.png)
+![Première impression](docs/first-plate.png)
 
 Notez qu'il ne faut pas beaucoup de plastique pour ces plaques de base (2g et 0.83m avec mes réglages pour ces 4 pièces). Après plusieurs essais, je suis parti sur une taille, pour un trou de 9.6mm x 9.6mm x 4.8mm. Plus petit, les manipulations deviennent difficiles (mais peut-être qu'il faudrait que je teste à nouveau en 6.4mm x 6.4mm x 3.2mm).
 
@@ -59,7 +64,7 @@ Pour s'y retrouver, voici quelques exemples :
 
 ### Créer ses plaques sur mesure
 
-Si vous ne trouvez pas votre bonheur dans ces fichiers STL, il est possible de créer, avec openscad, vos propres plaques assez simplement.
+Si vous ne trouvez pas votre bonheur dans ces fichiers STL, il est possible de créer, avec [openscad](https://www.openscad.org/), vos propres plaques assez simplement.
 
 Voici par exemple comment créer une plaque P-2-3 (Plaque à plat en 2x3).
 - Ouvrez le fichier [clip_and_block.scad](https://gitlab.com/tedour/clip-and-block/-/blob/master/clip_and_block.scad)
@@ -74,22 +79,20 @@ Voici par exemple comment créer une plaque P-2-3 (Plaque à plat en 2x3).
 ### Le fichier list-plates.txt et le script generate-plates.py
 Pour automatiser la génération des fichiers STL, j'ai créé le fichier *list-plates.txt* qui liste toutes les plaques. 
 
-Le fichier *generate-plates.py* lit ce fichier et lance la commande OpenSCAD avec les paramètres qui vont bien.
+Le fichier *generate-plates.py* lit ce fichier et lance les commandes OpenSCAD avec les paramètres qui vont bien.
 
 ## Les plaques pour composants électroniques
-C'est ici la partie intéressante du projet : pouvoir intégrer des composants electroniques, des leds, dans nos montages.
+C'est ici la partie intéressante du projet : pouvoir intégrer des composants electroniques dans vos montages.
 
 ### Les composants pris en charge
 Comme pour les plaques, j'ai créé un certain nombre de plaques qui permettent d'inclure des composants. Ils se trouvent dans le répertoir [stl/electronic](https://gitlab.com/tedour/clip-and-block/-/blob/master/stl/electronic).
 
-Voici par exemple les deux plaques qui permettent d'inclure un NodeMCU (J'utilise beaucoup ce composant) :
+Voici par exemple les deux plaques qui permettent d'inclure un [NodeMCU](https://fr.wikipedia.org/wiki/NodeMCU) (J'utilise beaucoup cette carte) :
 ![NodeMCU](docs/nodemcu.png)
 
 Il existe bien d'autres variantes de ces plaques, avec plus ou moins de trous, des trous d'un seul côté, etc.
 
-TODO: Photo en réél
-
-Voici la liste des composants que j'ai intégré dans mes montages :
+Voici la liste des composants présents dans clip & blocks, cette liste pourra (assez) facilement être étendue :
 
 |  Nom | Image | Description |
 | ---: | :----: | :-----------|
@@ -110,16 +113,16 @@ Voici la liste des composants que j'ai intégré dans mes montages :
 > Il existe plusieurs variantes pour chaque composant, je vous laisse les découvrir.
 
 ### Créer ses plaques pour ses composants
-Comme pour les plaques, vous pouvez créer vos propres plaques pour vos composants. Pour cela, vous devez modéliser une pièce autour de votre composant avec votre modeleur préféré.
+Vous pouvez créer vos propres plaques pour vos composants. Pour cela, vous devez modéliser une pièce autour de votre composant avec votre modeleur préféré.
+Pour pouvoir ajouter des trous Clip & Block autour, il faut veiller à ce que leur longueur et leur largeur soient un multiple de 9.6mm et leur hauteur de 4.8mm.
 
-Vous pourrez ensuite ajouter des trous grâce à OpenSCAD.
+Vous pouvez ensuite ajouter des trous grâce à OpenSCAD.
 
 #### Créer son .stl pour son composant
 
 Voici par exemple comment j'ai procédé pour l'afficheur TM1637 :
 - Pris en compte des dimenssions de l'afficheur
-- Création d'une "boîte" autour du composant qui est un multiple de 9.6 (Ici, 48mm x 28.8mm x 4.8mm)
-- Si cela n'est pas possible autrement, faire un dessus et un dessous pour le composant
+- Création d'une "boîte" autour du composant qui est un multiple de 9.6 (Ici, 48mm - 5 trous x 28.8mm - 3 trous x 4.8mm)
 
 Dessous :
 
@@ -129,7 +132,7 @@ Dessus :
 
 ![TM1637](docs/tm1637-top.png)
 
-#### Ajouter ses blocs avec openscad
+#### Ajouter les trous avec openscad
 
 Ensuite, il est possible d'ajouter les trous autour de votre montage grâce à OpenSCAD :
 - Ouvrez le fichier [clip_and_block.scad](https://gitlab.com/tedour/clip-and-block/-/blob/master/clip_and_block.scad)
@@ -149,6 +152,8 @@ Vous pouvez voir que dans ce fichier, vous pouvez indiquer toutes les options. J
 ![list-elec](docs/list-elec-csv.png)
 
 Le fichier *generate-plates.py* lit ce fichier et lance la commande OpenSCAD avec les paramètres.
+
+> Je vais peut-être fusionner les fichiers list-plates.txt et list-elec.csv prochainement.
 
 ## Mes réalisations
 
@@ -175,25 +180,28 @@ Qualités :
 - Pas besoin de réimprimer l'ensemble pour les modifications
 
 Défaults :
-- Manque de parties esthétiques (caches, couvercles, etc)
-- Sécurisation des connexions Dupont
+- Manque de plaques esthétiques (caches, couvercles, etc)
+- Sécurisation des connecteurs Dupont par des plaques
 - Organisation des fils
-
 
 ## La suite ?
 J'ai un petit peu abandonné ce projet depuis quelques mois, suite à une charge de travail importante.
 Cependant, je trouve dommage de le laisser à l'abandon, c'est pourquoi je vous demande de l'aide. Alors, de quoi ai-je besoin ?
 
 ### Tester
-La première chose que j'aimerais savoir c'est si ce projet fonctionne chez vous, si cela peut répondre à un besoin (ou le créer ?). Donc, merci de tester et de suivre la premuière partie de ce tutoriel !
-
-### Créer une communauté
-Jusqu'à maintenant, je n'ai que mon [GitLab](https://gitlab.com/tedour/clip-and-block). Mais je viens de créer un compte Mastodon pour discuter / échanger.
+La première chose que j'aimerais savoir c'est si ce projet fonctionne chez vous, si cela peut répondre à un besoin (ou le créer ?). Donc, merci de tester et de suivre la première partie de ce tutoriel !
 
 ### Quelques idées d'évolutions
 - Ajouter des composants (selon vos besoins)
 - Sécuriser les connecteurs / créer passe fils
 - Créer des plaques *décoratives*
+- Faire des manuels avec [ldcad](http://www.melkert.net/LDCad)
+- Créer d'autres projets ?
+
+### Créer une communauté
+Jusqu'à maintenant, je n'ai que mon [GitLab](https://gitlab.com/tedour/clip-and-block). Mais je viens de créer un compte Mastodon pour discuter / échanger.
+
+
 
 
 
