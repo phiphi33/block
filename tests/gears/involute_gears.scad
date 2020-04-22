@@ -1,10 +1,18 @@
 // Parametric Involute Bevel and Spur Gears by GregFrost
 // It is licensed under the Creative Commons - GNU LGPL 2.1 license.
 // © 2010 by GregFrost, thingiverse.com/Amp
-// http://www.thingiverse.com/thing:3575 and http://www.thingiverse.com/thing:3752
+//  and http://www.thingiverse.com/thing:3752
+
+// thickness => épaisseur
+// pitch => pas
+// rim => jante
+// bore => perçage
 
 // Simple Test:
 gear (circular_pitch=700,
+    number_of_teeth=15,
+    pressure_angle=30,
+    clearance=0.2,
 	gear_thickness = 12,
 	rim_thickness = 15,
 	hub_thickness = 17,
