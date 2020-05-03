@@ -5,9 +5,9 @@
 // https://www.thingiverse.com/thing:17514/files
 dia_in = 1;
 dia_out = 65;// Default 40
-spoke_count = 8; // Default 4
-spoke_thickness = 0.5; //Default 0.5
-tread_thickness = 0.5; //Default 0.5
+spoke_count = 5; // Default 4
+spoke_thickness = 1; //Default 0.5
+tread_thickness = 1; //Default 0.5
 hub_thickness = 7;
 height = 10;
 $fn = 30;
@@ -17,8 +17,8 @@ grip_height = 1.;
 grip_depth = 3;
 pi = 3.14159;
 zff = 0.001;
-print_wheel = false;
-print_washer = true;
+print_wheel = true;
+print_washer = false;
 
 //Set to 1 for a double spiral.
 // Note: single-wall spokes probably won't work with double spirals, as the
