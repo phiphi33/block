@@ -1,4 +1,6 @@
-> Ce document a été réalisé pour un journal sur [linuxfr](https://www.linuxfr.org)
+> Ce document a été réalisé pour une dépèche sur [linuxfr](https://linuxfr.org/news/clip-block-un-kit-pour-du-montage-electronique).
+
+> Suivez et contactez moi sur [Mastodon](https://mastodon.social/@clip_block)
 
 
 # Clip and block

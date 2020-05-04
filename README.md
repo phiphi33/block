@@ -1,9 +1,3 @@
-# clip and block
+Please read https://gitlab.com/tedour/clip-and-block/-/blob/master/README.fr.md or https://linuxfr.org/news/clip-block-un-kit-pour-du-montage-electronique
 
-Clip & block est un projet qui me 
-
-## Starting
-
-### Print clip & blocks
-
-Clip & blocks sont simples à imprimer
+Join and follow me via Mastodon : https://mastodon.social/@clip_block
