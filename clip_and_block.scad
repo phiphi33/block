@@ -5,8 +5,8 @@ length1=2;
 length2=3;
 length3=3 ;
 
-filename="TM1637-bottom.stl";
-holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]];
+filename="sg90-2x1.stl";
+holeArray=[[0,-1,0],[1,-1,0],[0,2,0],[1,2,0]];
 
 finalRotate=[0,0,0];
 finalMirror=[0,0,0];
