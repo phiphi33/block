@@ -65,6 +65,9 @@ with open('list-all.csv', newline='') as csvfile:
                 #preview = preview.replace("electronic", "electronic/preview", 1) 
                 file.write(preview + "\n")                
 
+    #Add clips preview
+    
+    
     file.close()
     
 #sys.exit()       
