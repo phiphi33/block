@@ -1,6 +1,9 @@
 import os
 import csv
 import sys
+
+from PIL import Image, ImageFont, ImageDraw 
+
 # generate list-elec.txt if list-elec.csv exist
 with open('list-elec.csv', newline='') as csvfile:
     dialect = csv.Sniffer().sniff(csvfile.read(1024))   
@@ -9,15 +12,29 @@ with open('list-elec.csv', newline='') as csvfile:
     # Initialize list-elec.txt
     file = open("list-elec.txt","w")
     quote = "\\\""
+    context = ""
     for row in reader:
-        line = "openscad -o ./stl/electronic/" + row['Filename'] + " clip_and_block.scad" 
-        line += " -D model=" + quote + row['Model'] + quote
-        line += " -D filename=" + quote + row['STL_source'] + quote
-        line += " -D holeArray=[" + row['holeArray'] + "]"
-        line += " -D finalRotate=" + row['finalRotate']                        
-        line += " -D finalMirror=" + row['finalMirror']        
-        file.write(line + "\n")
-                
+        if "#Electronic" in context:
+            # Generate STL
+            stl = "openscad -o ./stl/electronic/" + row['Filename'] + " clip_and_block.scad" 
+            stl += " -D model=" + quote + row['Model'] + quote
+            stl += " -D filename=" + quote + row['STL_source'] + quote
+            stl += " -D holeArray=[" + row['holeArray'] + "]"
+            stl += " -D finalRotate=" + row['finalRotate']                        
+            stl += " -D finalMirror=" + row['finalMirror']        
+            file.write(stl + "\n")
+
+            #Generate preview
+            preview = stl.replace(".stl", ".png", 1)
+            preview = preview.replace("electronic", "electronic/preview", 1)
+            file.write(preview + "\n")
+
+            
+
+        # Change typeOfElement            
+        if "#" in row['Filename']:
+            context = row['Filename']
+
     file.close()
     
 #sys.exit()       

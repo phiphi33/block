@@ -6,7 +6,7 @@ length2=3;
 length3=3 ;
 
 filename="sg90-2x1.stl";
-holeArray=[[0,-1,0],[1,-1,0],[0,2,0],[1,2,0]];
+holeArray=[[-1,0,0],[-1,1,0]];
 
 finalRotate=[0,0,0];
 finalMirror=[0,0,0];
