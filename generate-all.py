@@ -50,7 +50,6 @@ with open('list-all.csv', newline='') as csvfile:
                 length2 = params[2] if len(params) > 2 else 1
                 length3 = params[3] if len(params) > 3 else 1
                 filename = row['Filename'] + ".stl"
-                print(filename)
                 stl = "openscad -o ./stl/basic/" + row['Filename'] + ".stl" + " clip_and_block.scad"
                 stl += " -D model=" + quote + model + quote
                 stl += " -D length1=" + str(length1)
@@ -65,15 +64,20 @@ with open('list-all.csv', newline='') as csvfile:
                 #preview = preview.replace("electronic", "electronic/preview", 1) 
                 file.write(preview + "\n")                
 
-    #Add clips preview
-    
+    #Add clips preview for the folder stl/clips
+    StlFiles = os.listdir("./stl/clips")
+    for StlFile in StlFiles:
+        if ".stl" in StlFile:
+            PngFile = StlFile.replace(".stl", ".png", 1)
+            preview = "openscad -o ./stl/clips/" + PngFile + " stl_preview.scad"
+            preview += " -D filename=" + quote + "./stl/clips/" + StlFile + quote
+            file.write(preview + "\n")
     
     file.close()
     
 #sys.exit()       
 
-for line in open('openscad-commands.txt'):
-    line = line.rstrip('\n')
-    command = line
-    os.system(command)
+for command in open('openscad-commands.txt'):
     print(command)
+    os.system(command)
+

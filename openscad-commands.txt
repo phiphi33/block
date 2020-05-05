@@ -256,3 +256,10 @@ openscad -o ./stl/basic/U-2-2-2.stl clip_and_block.scad -D model=\"U\" -D length
 openscad -o ./stl/basic/U-2-2-2.png clip_and_block.scad -D model=\"U\" -D length1=2 -D length2=2 -D length3=2
 openscad -o ./stl/basic/U-3-3-3.stl clip_and_block.scad -D model=\"U\" -D length1=3 -D length2=3 -D length3=3
 openscad -o ./stl/basic/U-3-3-3.png clip_and_block.scad -D model=\"U\" -D length1=3 -D length2=3 -D length3=3
+openscad -o ./stl/clips/blocker-3.png stl_preview.scad -D filename=\"./stl/clips/blocker-3.stl\"
+openscad -o ./stl/clips/clip-2.png stl_preview.scad -D filename=\"./stl/clips/clip-2.stl\"
+openscad -o ./stl/clips/clip-4.png stl_preview.scad -D filename=\"./stl/clips/clip-4.stl\"
+openscad -o ./stl/clips/blocker-4.png stl_preview.scad -D filename=\"./stl/clips/blocker-4.stl\"
+openscad -o ./stl/clips/blocker-2.png stl_preview.scad -D filename=\"./stl/clips/blocker-2.stl\"
+openscad -o ./stl/clips/clip-2a.png stl_preview.scad -D filename=\"./stl/clips/clip-2a.stl\"
+openscad -o ./stl/clips/clip-3.png stl_preview.scad -D filename=\"./stl/clips/clip-3.stl\"
