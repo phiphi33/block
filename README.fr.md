@@ -158,7 +158,8 @@ Voici ce que j’ai réalisé avec les Clip & blocks — je pourrai, si vous me 
 - micro‑tracteur télécommandé (basé sur le projet [FF RC-Car](https://www.thingiverse.com/thing:3133996)) :
 ![Tracteur](https://gitlab.com/tedour/clip-and-block/-/raw/master/docs/projects/tracteur1.jpg)
 ![Tracteur](https://gitlab.com/tedour/clip-and-block/-/raw/master/docs/projects/tracteur2.jpg)
-![Tracteur](https://www.youtube.com/watch?v=LYvnh63f8S4)
+<iframe width="1194" height="672" src="https://www.youtube.com/embed/LYvnh63f8S4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 
