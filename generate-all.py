@@ -42,6 +42,7 @@ with open('list-all.csv', newline='') as csvfile:
                 #Preview in another directory
                 #preview = preview.replace("electronic", "electronic/preview", 1) 
                 file.write(preview + "\n")
+                #TODO : 1 image ? https://stackoverflow.com/questions/30227466/combine-several-images-horizontally-with-python
 
             if "#Plates" in context:
                 params = row['Filename'].split("-")
@@ -62,7 +63,10 @@ with open('list-all.csv', newline='') as csvfile:
                 preview = stl.replace(".stl", ".png", 1)
                 #Preview in another directory
                 #preview = preview.replace("electronic", "electronic/preview", 1) 
-                file.write(preview + "\n")                
+                file.write(preview + "\n")           
+
+
+                    
 
     #Add clips preview for the folder stl/clips
     StlFiles = os.listdir("./stl/clips")
