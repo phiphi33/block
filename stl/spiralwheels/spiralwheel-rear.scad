@@ -5,9 +5,9 @@
 // https://www.thingiverse.com/thing:17514/files
 dia_in = 1;
 dia_out = 65;//65;
-spoke_count = 5;
-spoke_thickness = 1;
-tread_thickness = 1;
+spoke_count = 8;
+spoke_thickness = 0.5;
+tread_thickness = 0.5;
 hub_thickness = 5;
 height = 10;
 washer_height = 4;
@@ -94,7 +94,7 @@ if (print_wheel) {
                 
                 //cylinder(h=10, r=4 , center=false);
                 translate([0,0,-washer_height]) {
-                    cylinder(h=7+washer_height, r1=3, r2=2.55 , center=false);
+                    cylinder(h=7+washer_height, r1=3.2, r2=2.75 , center=false);
                 }
                 
 

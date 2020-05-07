@@ -1,4 +1,4 @@
-Cette page existe en [Français](https://gitlab.com/tedour/clip-and-block/README.fr.md).
+Cette page existe en [Français](https://gitlab.com/tedour/clip-and-block/-/blob/master/README.fr.md).
 
 Clip & block is an open source construction kit (CC By‑SA 4.0). It can create solid structure for electronic projects with a 3D printer. Pieces can be assembly and removed easily for adding and remove components. It is still under development but i present my own projects at the end of this page.
 You can follow me on [Mastodon](https://mastodon.social/web/accounts/918095).
