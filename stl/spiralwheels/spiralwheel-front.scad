@@ -5,9 +5,9 @@
 // https://www.thingiverse.com/thing:17514/files
 dia_in = 1;
 dia_out = 65;// Default 40
-spoke_count = 5; // Default 4
-spoke_thickness = 1; //Default 0.5
-tread_thickness = 1; //Default 0.5
+spoke_count = 8; // Default 4
+spoke_thickness = 0.5; //Default 0.5
+tread_thickness = 0.5; //Default 0.5
 hub_thickness = 7;
 height = 10;
 $fn = 30;
