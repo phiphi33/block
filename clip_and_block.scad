@@ -1,11 +1,11 @@
 size =9.6;
-model="F";
+model="FH";
 
 length1=2;
 length2=3;
 length3=3 ;
 
-filename="sg90-2x1.stl";
+filename="dupontx2.stl";
 holeArray=[[-1,0,0],[-1,1,0]];
 
 finalRotate=[0,0,0];
