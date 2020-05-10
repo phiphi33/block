@@ -5,8 +5,8 @@ length1=2;
 length2=3;
 length3=3 ;
 
-filename="dupontx2.stl";
-holeArray=[[-1,0,0],[-1,1,0]];
+filename="wire-1H.stl";
+holeArray=[[0,-1,0],[0,2,0]];
 
 finalRotate=[0,0,0];
 finalMirror=[0,0,0];

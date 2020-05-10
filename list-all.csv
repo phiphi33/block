@@ -1,5 +1,17 @@
 Filename;STL_source;Model;holeArray;finalRotate;finalMirror
 #Electronic;;;;;
+wire-1H.stl;wire-1H.stl;FH;[0,-1,0],[0,1,0];[0,0,0];[0,0,0]
+wire-2H.stl;wire-2H.stl;FH;[0,-1,0],[0,2,0];[0,0,0];[0,0,0]
+wire-3H.stl;wire-3H.stl;FH;[0,-1,0],[0,3,0];[0,0,0];[0,0,0]
+wire-4H.stl;wire-4H.stl;FH;[0,-1,0],[0,4,0];[0,0,0];[0,0,0]
+wire-5H.stl;wire-5H.stl;FH;[0,-1,0],[0,5,0];[0,0,0];[0,0,0]
+dupontx2.stl;dupontx2.stl;FH;[-1,0,0],[-1,1,0],[-1,2,0];[0,0,0];[0,0,0]
+dupontx4.stl;dupontx4.stl;FH;[-1,0,0],[-1,1,0],[-1,2,0];[0,0,0];[0,0,0]
+dupontx6.stl;dupontx6.stl;FH;[-1,0,0],[-1,1,0],[-1,2,0];[0,0,0];[0,0,0]
+wire-3.stl;wire-3.stl;F;[0,-1,0];[0,0,0];[0,0,0]
+wire-3-2side.stl;wire-3.stl;F;[0,-1,0],[0,1,0];[0,0,0];[0,0,0]
+wire-6.stl;wire-6.stl;F;[0,-1,0];[0,0,0];[0,0,0]
+wire-6-2side.stl;wire-6.stl;F;[0,-1,0],[0,2,0];[0,0,0];[0,0,0]
 sg90-2x1.stl;sg90-2x1.stl;F;[0,-1,0],[1,-1,0],[0,2,0],[1,2,0];[0,0,0];[0,0,0]
 sg90-2x1-front.stl;sg90-2x1.stl;F;[-1,0,0],[-1,1,0];[0,0,0];[0,0,0]
 sg90-2x1-1side.stl;sg90-2x1.stl;F;[0,-1,0],[1,-1,0];[0,0,0];[0,0,0]
