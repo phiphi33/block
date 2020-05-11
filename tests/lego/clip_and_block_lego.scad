@@ -27,14 +27,6 @@ model="LE";
 // height=1;
 // holeArray=[[-1,0,0],[-1,1,0]];
 
-// // 1x2-L3x3
-// width=1;
-// length=3;
-// height=1;
-// holeArray=[[-1,0,0],[-1,1,0]];
-// width2=1;
-// length2=3;
-
 // L1x2-L3x4
 width=1;
 length=3;
@@ -42,6 +34,16 @@ height=1/3;
 holeArray=[[-1,0,0],[-1,1,0],[-2,0,0]];
 width2=1;
 length2=4;
+
+// // 1x2-L3x3
+width=1;
+length=3;
+height=1/3;
+holeArray=[[-1,0,0],[-1,1,0]];
+width2=1;
+length2=3;
+
+
 
 // // L1x2-L2x3
 // width=1;

@@ -1,293 +1,17 @@
-openscad -o ./stl/electronic/wire-1H.stl clip_and_block.scad -D model=\"FH\" -D filename=\"wire-1H.stl\" -D holeArray=[[0,-1,0],[0,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-1H.png clip_and_block.scad -D model=\"FH\" -D filename=\"wire-1H.stl\" -D holeArray=[[0,-1,0],[0,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-2H.stl clip_and_block.scad -D model=\"FH\" -D filename=\"wire-2H.stl\" -D holeArray=[[0,-1,0],[0,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-2H.png clip_and_block.scad -D model=\"FH\" -D filename=\"wire-2H.stl\" -D holeArray=[[0,-1,0],[0,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-3H.stl clip_and_block.scad -D model=\"FH\" -D filename=\"wire-3H.stl\" -D holeArray=[[0,-1,0],[0,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-3H.png clip_and_block.scad -D model=\"FH\" -D filename=\"wire-3H.stl\" -D holeArray=[[0,-1,0],[0,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-3H-strong.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-3H-strong.stl\" -D holeArray=[[0,-1,0],[0,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-3H-strong.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-3H-strong.stl\" -D holeArray=[[0,-1,0],[0,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-4H.stl clip_and_block.scad -D model=\"FH\" -D filename=\"wire-4H.stl\" -D holeArray=[[0,-1,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-4H.png clip_and_block.scad -D model=\"FH\" -D filename=\"wire-4H.stl\" -D holeArray=[[0,-1,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-4H-strong.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-4H-strong.stl\" -D holeArray=[[0,-1,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-4H-strong.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-4H-strong.stl\" -D holeArray=[[0,-1,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-5H.stl clip_and_block.scad -D model=\"FH\" -D filename=\"wire-5H.stl\" -D holeArray=[[0,-1,0],[0,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-5H.png clip_and_block.scad -D model=\"FH\" -D filename=\"wire-5H.stl\" -D holeArray=[[0,-1,0],[0,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-5H-strong.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-5H-strong.stl\" -D holeArray=[[0,-1,0],[0,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-5H-strong.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-5H-strong.stl\" -D holeArray=[[0,-1,0],[0,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/dupontx2.stl clip_and_block.scad -D model=\"FH\" -D filename=\"dupontx2.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/dupontx2.png clip_and_block.scad -D model=\"FH\" -D filename=\"dupontx2.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/dupontx4.stl clip_and_block.scad -D model=\"FH\" -D filename=\"dupontx4.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/dupontx4.png clip_and_block.scad -D model=\"FH\" -D filename=\"dupontx4.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/dupontx6.stl clip_and_block.scad -D model=\"FH\" -D filename=\"dupontx6.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/dupontx6.png clip_and_block.scad -D model=\"FH\" -D filename=\"dupontx6.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-3.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-3.stl\" -D holeArray=[[0,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-3.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-3.stl\" -D holeArray=[[0,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-3-2side.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-3.stl\" -D holeArray=[[0,-1,0],[0,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-3-2side.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-3.stl\" -D holeArray=[[0,-1,0],[0,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-6.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-6.stl\" -D holeArray=[[0,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-6.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-6.stl\" -D holeArray=[[0,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-6-2side.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-6.stl\" -D holeArray=[[0,-1,0],[0,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/wire-6-2side.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-6.stl\" -D holeArray=[[0,-1,0],[0,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-2x1.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[0,2,0],[1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-2x1.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[0,2,0],[1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-2x1-front.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x1.stl\" -D holeArray=[[-1,0,0],[-1,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-2x1-front.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x1.stl\" -D holeArray=[[-1,0,0],[-1,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-2x1-1side.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-2x1-1side.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-3x1.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-3x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[0,2,0],[1,2,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-3x1.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-3x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[0,2,0],[1,2,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-3x1-1side.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-3x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-3x1-1side.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-3x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-2x2.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x2.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[0,-1,1],[1,-1,1],[0,2,0],[1,2,0],[0,2,1],[1,2,1]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-2x2.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x2.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[0,-1,1],[1,-1,1],[0,2,0],[1,2,0],[0,2,1],[1,2,1]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-4x1.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[3,-1,0],[0,2,0],[1,2,0],[2,2,0],[3,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-4x1.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[3,-1,0],[0,2,0],[1,2,0],[2,2,0],[3,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-4x1-large.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1-large.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[3,-1,0],[0,3,0],[1,3,0],[2,3,0],[3,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-4x1-large.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1-large.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[3,-1,0],[0,3,0],[1,3,0],[2,3,0],[3,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-4x1-front.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[4,0,0],[4,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-4x1-front.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[4,0,0],[4,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-4x1-1side.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[3,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/sg90-4x1-1side.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[3,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/battery-shield-bottom-1.stl clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-bottom.stl\" -D holeArray=[[-1,-1,0]] -D finalRotate=[270,0,0] -D finalMirror=[0,1,0]
-openscad -o ./stl/electronic/battery-shield-bottom-1.png clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-bottom.stl\" -D holeArray=[[-1,-1,0]] -D finalRotate=[270,0,0] -D finalMirror=[0,1,0]
-openscad -o ./stl/electronic/battery-shield-bottom-2.stl clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-bottom.stl\" -D holeArray=[[-1,-1,0],[-2,-1,0]] -D finalRotate=[270,0,0] -D finalMirror=[0,1,0]
-openscad -o ./stl/electronic/battery-shield-bottom-2.png clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-bottom.stl\" -D holeArray=[[-1,-1,0],[-2,-1,0]] -D finalRotate=[270,0,0] -D finalMirror=[0,1,0]
-openscad -o ./stl/electronic/battery-shield-usb-1.stl clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-usb.stl\" -D holeArray=[[0,0,0]] -D finalRotate=[90,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/battery-shield-usb-1.png clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-usb.stl\" -D holeArray=[[0,0,0]] -D finalRotate=[90,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/battery-shield-usb-2.stl clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-usb.stl\" -D holeArray=[[0,0,0],[1,0,0]] -D finalRotate=[90,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/battery-shield-usb-2.png clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-usb.stl\" -D holeArray=[[0,0,0],[1,0,0]] -D finalRotate=[90,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/bme280.stl clip_and_block.scad -D model=\"FH\" -D filename=\"bme280.stl\" -D holeArray=[[-1,0,0],[2,0,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/bme280.png clip_and_block.scad -D model=\"FH\" -D filename=\"bme280.stl\" -D holeArray=[[-1,0,0],[2,0,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/l9110s-side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"l9110s.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[0,3,0],[1,3,0],[2,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/l9110s-side.png clip_and_block.scad -D model=\"FH\" -D filename=\"l9110s.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[0,3,0],[1,3,0],[2,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/l9110s-bottom.stl clip_and_block.scad -D model=\"FH\" -D filename=\"l9110s.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/l9110s-bottom.png clip_and_block.scad -D model=\"FH\" -D filename=\"l9110s.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-top-small.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top-small.stl\" -D holeArray=[[0,-1,0],[0,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-top-small.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top-small.stl\" -D holeArray=[[0,-1,0],[0,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-bottom.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-bottom.stl\" -D holeArray=[[-5,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-bottom.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-bottom.stl\" -D holeArray=[[-5,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-top.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-top.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-bottom-2.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-bottom.stl\" -D holeArray=[[-5,0,0],[-5,1,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-bottom-2.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-bottom.stl\" -D holeArray=[[-5,0,0],[-5,1,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-top-2.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0],[0,1,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-top-2.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0],[0,1,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-bottom-2side.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-bottom.stl\" -D holeArray=[[0,0,0],[-5,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-bottom-2side.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-bottom.stl\" -D holeArray=[[0,0,0],[-5,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-top-2side2.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0],[0,1,0],[-5,0,0],[-5,1,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-top-2side2.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0],[0,1,0],[-5,0,0],[-5,1,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-top-2side.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0],[-5,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/nodemcu-top-2side.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0],[-5,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/oled-128x64-top-2side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-top.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[3,0,0],[3,1,0],[3,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/oled-128x64-top-2side.png clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-top.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[3,0,0],[3,1,0],[3,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/oled-128x64-top-1side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/oled-128x64-top-1side.png clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/oled-128x64-bottom-2side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-top.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[3,0,0],[3,1,0],[3,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/oled-128x64-bottom-2side.png clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-top.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[3,0,0],[3,1,0],[3,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/oled-128x64-bottom-1side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/oled-128x64-bottom-1side.png clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/18650x2-holder-bottom.stl clip_and_block.scad -D model=\"F\" -D filename=\"18650x2-holder.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[-1,3,0],[-1,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/18650x2-holder-bottom.png clip_and_block.scad -D model=\"F\" -D filename=\"18650x2-holder.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[-1,3,0],[-1,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/18650x2-holder-1.stl clip_and_block.scad -D model=\"F\" -D filename=\"18650x2-holder.stl\" -D holeArray=[[0,-1,0],[0,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/18650x2-holder-1.png clip_and_block.scad -D model=\"F\" -D filename=\"18650x2-holder.stl\" -D holeArray=[[0,-1,0],[0,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/18650x2-holder.stl clip_and_block.scad -D model=\"F\" -D filename=\"18650x2-holder.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[0,5,0],[1,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/18650x2-holder.png clip_and_block.scad -D model=\"F\" -D filename=\"18650x2-holder.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[0,5,0],[1,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/button14x20-bottom-1side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/button14x20-bottom-1side.png clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/button14x20-top-1side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-top.stl\" -D holeArray=[[2,0,0],[2,1,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/button14x20-top-1side.png clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-top.stl\" -D holeArray=[[2,0,0],[2,1,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/button14x20-bottom-2side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[2,0,0],[2,1,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/button14x20-bottom-2side.png clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[2,0,0],[2,1,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/button14x20-top-2side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-top.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[2,0,0],[2,1,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/button14x20-top-2side.png clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-top.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[2,0,0],[2,1,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/button14x20-bottom-small.stl clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-bottom.stl\" -D holeArray=[[0,3,0],[1,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/button14x20-bottom-small.png clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-bottom.stl\" -D holeArray=[[0,3,0],[1,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/button14x20-top-small.stl clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-top.stl\" -D holeArray=[[0,3,0],[1,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/button14x20-top-small.png clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-top.stl\" -D holeArray=[[0,3,0],[1,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/dc-motor-v2.stl clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2.stl\" -D holeArray=[[-1,-1,0],[-1,3,0]] -D finalRotate=[90,0,0] -D finalMirror=[1,0,0]
-openscad -o ./stl/electronic/dc-motor-v2.png clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2.stl\" -D holeArray=[[-1,-1,0],[-1,3,0]] -D finalRotate=[90,0,0] -D finalMirror=[1,0,0]
-openscad -o ./stl/electronic/dc-motor-v2-double.stl clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2.stl\" -D holeArray=[[-1,-1,0],[-1,3,0],[-1,4,0]] -D finalRotate=[90,0,0] -D finalMirror=[1,0,0]
-openscad -o ./stl/electronic/dc-motor-v2-double.png clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2.stl\" -D holeArray=[[-1,-1,0],[-1,3,0],[-1,4,0]] -D finalRotate=[90,0,0] -D finalMirror=[1,0,0]
-openscad -o ./stl/electronic/dc-motor-v2-down.stl clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2-down.stl\" -D holeArray=[[-1,-1,0],[-1,3,0]] -D finalRotate=[270,0,0] -D finalMirror=[1,0,0]
-openscad -o ./stl/electronic/dc-motor-v2-down.png clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2-down.stl\" -D holeArray=[[-1,-1,0],[-1,3,0]] -D finalRotate=[270,0,0] -D finalMirror=[1,0,0]
-openscad -o ./stl/electronic/dc-motor-v2-down-double.stl clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2-down.stl\" -D holeArray=[[-1,-1,0],[-1,3,0],[-1,4,0]] -D finalRotate=[270,0,0] -D finalMirror=[1,0,0]
-openscad -o ./stl/electronic/dc-motor-v2-down-double.png clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2-down.stl\" -D holeArray=[[-1,-1,0],[-1,3,0],[-1,4,0]] -D finalRotate=[270,0,0] -D finalMirror=[1,0,0]
-openscad -o ./stl/electronic/tm1637-bottom.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0],[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-bottom.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0],[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-top.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0],[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-top.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0],[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-1other-side-bottom.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-1other-side-bottom.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-1other-side-top.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-1other-side-top.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-1side-bottom.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-1side-bottom.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-1side-top.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-1side-top.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-small-bottom.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[-1,5,0],[-2,5,0],[-3,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-small-bottom.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[-1,5,0],[-2,5,0],[-3,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-small-top.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[-1,5,0],[-2,5,0],[-3,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/tm1637-small-top.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[-1,5,0],[-2,5,0],[-3,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/D1-mini.stl clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/D1-mini.png clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/D1-mini-one-side.stl clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/D1-mini-one-side.png clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/D1-mini-other-side.stl clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/D1-mini-other-side.png clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/D1-mini-small.stl clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[-1,-1,0],[-2,-1,0],[-3,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/electronic/D1-mini-small.png clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[-1,-1,0],[-2,-1,0],[-3,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
-openscad -o ./stl/basic/I-1.stl clip_and_block.scad -D model=\"I\" -D length1=1 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-1.png clip_and_block.scad -D model=\"I\" -D length1=1 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-2.stl clip_and_block.scad -D model=\"I\" -D length1=2 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-2.png clip_and_block.scad -D model=\"I\" -D length1=2 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-3.stl clip_and_block.scad -D model=\"I\" -D length1=3 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-3.png clip_and_block.scad -D model=\"I\" -D length1=3 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-4.stl clip_and_block.scad -D model=\"I\" -D length1=4 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-4.png clip_and_block.scad -D model=\"I\" -D length1=4 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-5.stl clip_and_block.scad -D model=\"I\" -D length1=5 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-5.png clip_and_block.scad -D model=\"I\" -D length1=5 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-6.stl clip_and_block.scad -D model=\"I\" -D length1=6 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-6.png clip_and_block.scad -D model=\"I\" -D length1=6 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-7.stl clip_and_block.scad -D model=\"I\" -D length1=7 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-7.png clip_and_block.scad -D model=\"I\" -D length1=7 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-8.stl clip_and_block.scad -D model=\"I\" -D length1=8 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-8.png clip_and_block.scad -D model=\"I\" -D length1=8 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-9.stl clip_and_block.scad -D model=\"I\" -D length1=9 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-9.png clip_and_block.scad -D model=\"I\" -D length1=9 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-10.stl clip_and_block.scad -D model=\"I\" -D length1=10 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-10.png clip_and_block.scad -D model=\"I\" -D length1=10 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-11.stl clip_and_block.scad -D model=\"I\" -D length1=11 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-11.png clip_and_block.scad -D model=\"I\" -D length1=11 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-13.stl clip_and_block.scad -D model=\"I\" -D length1=13 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-13.png clip_and_block.scad -D model=\"I\" -D length1=13 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-15.stl clip_and_block.scad -D model=\"I\" -D length1=15 -D length2=1 -D length3=1
-openscad -o ./stl/basic/I-15.png clip_and_block.scad -D model=\"I\" -D length1=15 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IR-1.stl clip_and_block.scad -D model=\"IR\" -D length1=1 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IR-1.png clip_and_block.scad -D model=\"IR\" -D length1=1 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IR-2.stl clip_and_block.scad -D model=\"IR\" -D length1=2 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IR-2.png clip_and_block.scad -D model=\"IR\" -D length1=2 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IR-3.stl clip_and_block.scad -D model=\"IR\" -D length1=3 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IR-3.png clip_and_block.scad -D model=\"IR\" -D length1=3 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IH-2.stl clip_and_block.scad -D model=\"IH\" -D length1=2 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IH-2.png clip_and_block.scad -D model=\"IH\" -D length1=2 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IH-3.stl clip_and_block.scad -D model=\"IH\" -D length1=3 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IH-3.png clip_and_block.scad -D model=\"IH\" -D length1=3 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IHR-2.stl clip_and_block.scad -D model=\"IHR\" -D length1=2 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IHR-2.png clip_and_block.scad -D model=\"IHR\" -D length1=2 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IHR-3.stl clip_and_block.scad -D model=\"IHR\" -D length1=3 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IHR-3.png clip_and_block.scad -D model=\"IHR\" -D length1=3 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IHR-9.stl clip_and_block.scad -D model=\"IHR\" -D length1=9 -D length2=1 -D length3=1
-openscad -o ./stl/basic/IHR-9.png clip_and_block.scad -D model=\"IHR\" -D length1=9 -D length2=1 -D length3=1
-openscad -o ./stl/basic/S-1-1-1.stl clip_and_block.scad -D model=\"S\" -D length1=1 -D length2=1 -D length3=1
-openscad -o ./stl/basic/S-1-1-1.png clip_and_block.scad -D model=\"S\" -D length1=1 -D length2=1 -D length3=1
-openscad -o ./stl/basic/S-2-1-2.stl clip_and_block.scad -D model=\"S\" -D length1=2 -D length2=1 -D length3=2
-openscad -o ./stl/basic/S-2-1-2.png clip_and_block.scad -D model=\"S\" -D length1=2 -D length2=1 -D length3=2
-openscad -o ./stl/basic/S-2-2-2.stl clip_and_block.scad -D model=\"S\" -D length1=2 -D length2=2 -D length3=2
-openscad -o ./stl/basic/S-2-2-2.png clip_and_block.scad -D model=\"S\" -D length1=2 -D length2=2 -D length3=2
-openscad -o ./stl/basic/S-2-3-2.stl clip_and_block.scad -D model=\"S\" -D length1=2 -D length2=3 -D length3=2
-openscad -o ./stl/basic/S-2-3-2.png clip_and_block.scad -D model=\"S\" -D length1=2 -D length2=3 -D length3=2
-openscad -o ./stl/basic/LF-2-2.stl clip_and_block.scad -D model=\"LF\" -D length1=2 -D length2=2 -D length3=1
-openscad -o ./stl/basic/LF-2-2.png clip_and_block.scad -D model=\"LF\" -D length1=2 -D length2=2 -D length3=1
-openscad -o ./stl/basic/LF-3-2.stl clip_and_block.scad -D model=\"LF\" -D length1=3 -D length2=2 -D length3=1
-openscad -o ./stl/basic/LF-3-2.png clip_and_block.scad -D model=\"LF\" -D length1=3 -D length2=2 -D length3=1
-openscad -o ./stl/basic/LF-4-2.stl clip_and_block.scad -D model=\"LF\" -D length1=4 -D length2=2 -D length3=1
-openscad -o ./stl/basic/LF-4-2.png clip_and_block.scad -D model=\"LF\" -D length1=4 -D length2=2 -D length3=1
-openscad -o ./stl/basic/LF-5-2.stl clip_and_block.scad -D model=\"LF\" -D length1=5 -D length2=2 -D length3=1
-openscad -o ./stl/basic/LF-5-2.png clip_and_block.scad -D model=\"LF\" -D length1=5 -D length2=2 -D length3=1
-openscad -o ./stl/basic/LF-6-2.stl clip_and_block.scad -D model=\"LF\" -D length1=6 -D length2=2 -D length3=1
-openscad -o ./stl/basic/LF-6-2.png clip_and_block.scad -D model=\"LF\" -D length1=6 -D length2=2 -D length3=1
-openscad -o ./stl/basic/LF-8-2.stl clip_and_block.scad -D model=\"LF\" -D length1=8 -D length2=2 -D length3=1
-openscad -o ./stl/basic/LF-8-2.png clip_and_block.scad -D model=\"LF\" -D length1=8 -D length2=2 -D length3=1
-openscad -o ./stl/basic/LF-3-3.stl clip_and_block.scad -D model=\"LF\" -D length1=3 -D length2=3 -D length3=1
-openscad -o ./stl/basic/LF-3-3.png clip_and_block.scad -D model=\"LF\" -D length1=3 -D length2=3 -D length3=1
-openscad -o ./stl/basic/LF-4-3.stl clip_and_block.scad -D model=\"LF\" -D length1=4 -D length2=3 -D length3=1
-openscad -o ./stl/basic/LF-4-3.png clip_and_block.scad -D model=\"LF\" -D length1=4 -D length2=3 -D length3=1
-openscad -o ./stl/basic/LF-6-3.stl clip_and_block.scad -D model=\"LF\" -D length1=6 -D length2=3 -D length3=1
-openscad -o ./stl/basic/LF-6-3.png clip_and_block.scad -D model=\"LF\" -D length1=6 -D length2=3 -D length3=1
-openscad -o ./stl/basic/LF-4-4.stl clip_and_block.scad -D model=\"LF\" -D length1=4 -D length2=4 -D length3=1
-openscad -o ./stl/basic/LF-4-4.png clip_and_block.scad -D model=\"LF\" -D length1=4 -D length2=4 -D length3=1
-openscad -o ./stl/basic/LF-6-4.stl clip_and_block.scad -D model=\"LF\" -D length1=6 -D length2=4 -D length3=1
-openscad -o ./stl/basic/LF-6-4.png clip_and_block.scad -D model=\"LF\" -D length1=6 -D length2=4 -D length3=1
-openscad -o ./stl/basic/LF-8-4.stl clip_and_block.scad -D model=\"LF\" -D length1=8 -D length2=4 -D length3=1
-openscad -o ./stl/basic/LF-8-4.png clip_and_block.scad -D model=\"LF\" -D length1=8 -D length2=4 -D length3=1
-openscad -o ./stl/basic/L-1-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-1-1-1.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-2-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-2-1-1.png clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-3-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=3 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-3-1-1.png clip_and_block.scad -D model=\"L\" -D length1=3 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-4-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-4-1-1.png clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-5-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=5 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-5-1-1.png clip_and_block.scad -D model=\"L\" -D length1=5 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-6-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=6 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-6-1-1.png clip_and_block.scad -D model=\"L\" -D length1=6 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-8-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=8 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-8-1-1.png clip_and_block.scad -D model=\"L\" -D length1=8 -D length2=1 -D length3=1
-openscad -o ./stl/basic/L-2-2-1.stl clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=2 -D length3=1
-openscad -o ./stl/basic/L-2-2-1.png clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=2 -D length3=1
-openscad -o ./stl/basic/L-4-2-1.stl clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=2 -D length3=1
-openscad -o ./stl/basic/L-4-2-1.png clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=2 -D length3=1
-openscad -o ./stl/basic/L-6-2-1.stl clip_and_block.scad -D model=\"L\" -D length1=6 -D length2=2 -D length3=1
-openscad -o ./stl/basic/L-6-2-1.png clip_and_block.scad -D model=\"L\" -D length1=6 -D length2=2 -D length3=1
-openscad -o ./stl/basic/L-3-3-1.stl clip_and_block.scad -D model=\"L\" -D length1=3 -D length2=3 -D length3=1
-openscad -o ./stl/basic/L-3-3-1.png clip_and_block.scad -D model=\"L\" -D length1=3 -D length2=3 -D length3=1
-openscad -o ./stl/basic/L-4-4-1.stl clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=4 -D length3=1
-openscad -o ./stl/basic/L-4-4-1.png clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=4 -D length3=1
-openscad -o ./stl/basic/L-1-1-2.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=2
-openscad -o ./stl/basic/L-1-1-2.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=2
-openscad -o ./stl/basic/L-1-1-3.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=3
-openscad -o ./stl/basic/L-1-1-3.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=3
-openscad -o ./stl/basic/L-1-1-4.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=4
-openscad -o ./stl/basic/L-1-1-4.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=4
-openscad -o ./stl/basic/L-1-1-5.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=5
-openscad -o ./stl/basic/L-1-1-5.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=5
-openscad -o ./stl/basic/L-1-1-6.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=6
-openscad -o ./stl/basic/L-1-1-6.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=6
-openscad -o ./stl/basic/L-1-1-8.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=8
-openscad -o ./stl/basic/L-1-1-8.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=8
-openscad -o ./stl/basic/L-1-1-10.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=10
-openscad -o ./stl/basic/L-1-1-10.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=10
-openscad -o ./stl/basic/L-1-1-11.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=11
-openscad -o ./stl/basic/L-1-1-11.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=11
-openscad -o ./stl/basic/L-2-1-2.stl clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=1 -D length3=2
-openscad -o ./stl/basic/L-2-1-2.png clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=1 -D length3=2
-openscad -o ./stl/basic/L-4-1-2.stl clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=1 -D length3=2
-openscad -o ./stl/basic/L-4-1-2.png clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=1 -D length3=2
-openscad -o ./stl/basic/L-3-3-3.stl clip_and_block.scad -D model=\"L\" -D length1=3 -D length2=3 -D length3=3
-openscad -o ./stl/basic/L-3-3-3.png clip_and_block.scad -D model=\"L\" -D length1=3 -D length2=3 -D length3=3
-openscad -o ./stl/basic/L-2-2-3.stl clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=2 -D length3=3
-openscad -o ./stl/basic/L-2-2-3.png clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=2 -D length3=3
-openscad -o ./stl/basic/P-2-2.stl clip_and_block.scad -D model=\"P\" -D length1=2 -D length2=2 -D length3=1
-openscad -o ./stl/basic/P-2-2.png clip_and_block.scad -D model=\"P\" -D length1=2 -D length2=2 -D length3=1
-openscad -o ./stl/basic/P-3-2.stl clip_and_block.scad -D model=\"P\" -D length1=3 -D length2=2 -D length3=1
-openscad -o ./stl/basic/P-3-2.png clip_and_block.scad -D model=\"P\" -D length1=3 -D length2=2 -D length3=1
-openscad -o ./stl/basic/P-4-2.stl clip_and_block.scad -D model=\"P\" -D length1=4 -D length2=2 -D length3=1
-openscad -o ./stl/basic/P-4-2.png clip_and_block.scad -D model=\"P\" -D length1=4 -D length2=2 -D length3=1
-openscad -o ./stl/basic/P-6-2.stl clip_and_block.scad -D model=\"P\" -D length1=6 -D length2=2 -D length3=1
-openscad -o ./stl/basic/P-6-2.png clip_and_block.scad -D model=\"P\" -D length1=6 -D length2=2 -D length3=1
-openscad -o ./stl/basic/P-8-2.stl clip_and_block.scad -D model=\"P\" -D length1=8 -D length2=2 -D length3=1
-openscad -o ./stl/basic/P-8-2.png clip_and_block.scad -D model=\"P\" -D length1=8 -D length2=2 -D length3=1
-openscad -o ./stl/basic/P-3-3.stl clip_and_block.scad -D model=\"P\" -D length1=3 -D length2=3 -D length3=1
-openscad -o ./stl/basic/P-3-3.png clip_and_block.scad -D model=\"P\" -D length1=3 -D length2=3 -D length3=1
-openscad -o ./stl/basic/P-4-4.stl clip_and_block.scad -D model=\"P\" -D length1=4 -D length2=4 -D length3=1
-openscad -o ./stl/basic/P-4-4.png clip_and_block.scad -D model=\"P\" -D length1=4 -D length2=4 -D length3=1
-openscad -o ./stl/basic/C-2-1-1.stl clip_and_block.scad -D model=\"C\" -D length1=2 -D length2=1 -D length3=1
-openscad -o ./stl/basic/C-2-1-1.png clip_and_block.scad -D model=\"C\" -D length1=2 -D length2=1 -D length3=1
-openscad -o ./stl/basic/C-3-1-1.stl clip_and_block.scad -D model=\"C\" -D length1=3 -D length2=1 -D length3=1
-openscad -o ./stl/basic/C-3-1-1.png clip_and_block.scad -D model=\"C\" -D length1=3 -D length2=1 -D length3=1
-openscad -o ./stl/basic/C-2-2-1.stl clip_and_block.scad -D model=\"C\" -D length1=2 -D length2=2 -D length3=1
-openscad -o ./stl/basic/C-2-2-1.png clip_and_block.scad -D model=\"C\" -D length1=2 -D length2=2 -D length3=1
-openscad -o ./stl/basic/C-2-2-2.stl clip_and_block.scad -D model=\"C\" -D length1=2 -D length2=2 -D length3=2
-openscad -o ./stl/basic/C-2-2-2.png clip_and_block.scad -D model=\"C\" -D length1=2 -D length2=2 -D length3=2
-openscad -o ./stl/basic/U-1-1-1.stl clip_and_block.scad -D model=\"U\" -D length1=1 -D length2=1 -D length3=1
-openscad -o ./stl/basic/U-1-1-1.png clip_and_block.scad -D model=\"U\" -D length1=1 -D length2=1 -D length3=1
-openscad -o ./stl/basic/U-1-2-1.stl clip_and_block.scad -D model=\"U\" -D length1=1 -D length2=2 -D length3=1
-openscad -o ./stl/basic/U-1-2-1.png clip_and_block.scad -D model=\"U\" -D length1=1 -D length2=2 -D length3=1
-openscad -o ./stl/basic/U-2-2-2.stl clip_and_block.scad -D model=\"U\" -D length1=2 -D length2=2 -D length3=2
-openscad -o ./stl/basic/U-2-2-2.png clip_and_block.scad -D model=\"U\" -D length1=2 -D length2=2 -D length3=2
-openscad -o ./stl/basic/U-3-3-3.stl clip_and_block.scad -D model=\"U\" -D length1=3 -D length2=3 -D length3=3
-openscad -o ./stl/basic/U-3-3-3.png clip_and_block.scad -D model=\"U\" -D length1=3 -D length2=3 -D length3=3
+openscad -o ./tests/lego/stl/L1.stl ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=1 -D length=6 -D height=1/3 -D width2=0 -D length2=0 -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[-1,3,0],[-1,4,0]]
+openscad -o ./tests/lego/stl/L1.png ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=1 -D length=6 -D height=1/3 -D width2=0 -D length2=0 -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[-1,3,0],[-1,4,0]]
+openscad -o ./tests/lego/stl/L2.stl ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=2 -D length=6 -D height=1/3 -D width2=0 -D length2=0 -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[-1,3,0],[-1,4,0]]
+openscad -o ./tests/lego/stl/L2.png ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=2 -D length=6 -D height=1/3 -D width2=0 -D length2=0 -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[-1,3,0],[-1,4,0]]
+openscad -o ./tests/lego/stl/L3.stl ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=1 -D length=3 -D height=1/3 -D width2=0 -D length2=0 -D holeArray=[[-1,0,0],[-1,1,0]]
+openscad -o ./tests/lego/stl/L3.png ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=1 -D length=3 -D height=1/3 -D width2=0 -D length2=0 -D holeArray=[[-1,0,0],[-1,1,0]]
+openscad -o ./tests/lego/stl/L4.stl ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=2 -D length=3 -D height=1/3 -D width2=0 -D length2=0 -D holeArray=[[-1,0,0],[-1,1,0]]
+openscad -o ./tests/lego/stl/L4.png ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=2 -D length=3 -D height=1/3 -D width2=0 -D length2=0 -D holeArray=[[-1,0,0],[-1,1,0]]
+openscad -o ./tests/lego/stl/L5.stl ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=1 -D length=3 -D height=1/3 -D width2=1 -D length2=3 -D holeArray=[[-1,0,0],[-1,1,0]]
+openscad -o ./tests/lego/stl/L5.png ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=1 -D length=3 -D height=1/3 -D width2=1 -D length2=3 -D holeArray=[[-1,0,0],[-1,1,0]]
+openscad -o ./tests/lego/stl/L6.stl ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=1 -D length=3 -D height=1/3 -D width2=1 -D length2=4 -D holeArray=[[-1,0,0],[-1,1,0],[-2,0,0]]
+openscad -o ./tests/lego/stl/L6.png ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=1 -D length=3 -D height=1/3 -D width2=1 -D length2=4 -D holeArray=[[-1,0,0],[-1,1,0],[-2,0,0]]
+openscad -o ./tests/lego/stl/L7.stl ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=1 -D length=2 -D height=1/3 -D width2=1 -D length2=3 -D holeArray=[[-1,0,0],[-1,1,0],[-2,0,0]]
+openscad -o ./tests/lego/stl/L7.png ./tests/lego/clip_and_block_lego.scad -D model=\"LE\" -D width=1 -D length=2 -D height=1/3 -D width2=1 -D length2=3 -D holeArray=[[-1,0,0],[-1,1,0],[-2,0,0]]
 openscad -o ./stl/clips/blocker-3.png stl_preview.scad -D filename=\"./stl/clips/blocker-3.stl\"
 openscad -o ./stl/clips/clip-2.png stl_preview.scad -D filename=\"./stl/clips/clip-2.stl\"
 openscad -o ./stl/clips/clip-4.png stl_preview.scad -D filename=\"./stl/clips/clip-4.stl\"
@@ -295,3 +19,297 @@ openscad -o ./stl/clips/blocker-4.png stl_preview.scad -D filename=\"./stl/clips
 openscad -o ./stl/clips/blocker-2.png stl_preview.scad -D filename=\"./stl/clips/blocker-2.stl\"
 openscad -o ./stl/clips/clip-2a.png stl_preview.scad -D filename=\"./stl/clips/clip-2a.stl\"
 openscad -o ./stl/clips/clip-3.png stl_preview.scad -D filename=\"./stl/clips/clip-3.stl\"
+openscad -o ./stl/basic-parts/I-1.stl clip_and_block.scad -D model=\"I\" -D length1=1 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-1.png clip_and_block.scad -D model=\"I\" -D length1=1 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-2.stl clip_and_block.scad -D model=\"I\" -D length1=2 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-2.png clip_and_block.scad -D model=\"I\" -D length1=2 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-3.stl clip_and_block.scad -D model=\"I\" -D length1=3 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-3.png clip_and_block.scad -D model=\"I\" -D length1=3 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-4.stl clip_and_block.scad -D model=\"I\" -D length1=4 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-4.png clip_and_block.scad -D model=\"I\" -D length1=4 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-5.stl clip_and_block.scad -D model=\"I\" -D length1=5 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-5.png clip_and_block.scad -D model=\"I\" -D length1=5 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-6.stl clip_and_block.scad -D model=\"I\" -D length1=6 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-6.png clip_and_block.scad -D model=\"I\" -D length1=6 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-7.stl clip_and_block.scad -D model=\"I\" -D length1=7 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-7.png clip_and_block.scad -D model=\"I\" -D length1=7 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-8.stl clip_and_block.scad -D model=\"I\" -D length1=8 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-8.png clip_and_block.scad -D model=\"I\" -D length1=8 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-9.stl clip_and_block.scad -D model=\"I\" -D length1=9 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-9.png clip_and_block.scad -D model=\"I\" -D length1=9 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-10.stl clip_and_block.scad -D model=\"I\" -D length1=10 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-10.png clip_and_block.scad -D model=\"I\" -D length1=10 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-11.stl clip_and_block.scad -D model=\"I\" -D length1=11 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-11.png clip_and_block.scad -D model=\"I\" -D length1=11 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-13.stl clip_and_block.scad -D model=\"I\" -D length1=13 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-13.png clip_and_block.scad -D model=\"I\" -D length1=13 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-15.stl clip_and_block.scad -D model=\"I\" -D length1=15 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/I-15.png clip_and_block.scad -D model=\"I\" -D length1=15 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IR-1.stl clip_and_block.scad -D model=\"IR\" -D length1=1 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IR-1.png clip_and_block.scad -D model=\"IR\" -D length1=1 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IR-2.stl clip_and_block.scad -D model=\"IR\" -D length1=2 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IR-2.png clip_and_block.scad -D model=\"IR\" -D length1=2 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IR-3.stl clip_and_block.scad -D model=\"IR\" -D length1=3 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IR-3.png clip_and_block.scad -D model=\"IR\" -D length1=3 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IH-2.stl clip_and_block.scad -D model=\"IH\" -D length1=2 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IH-2.png clip_and_block.scad -D model=\"IH\" -D length1=2 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IH-3.stl clip_and_block.scad -D model=\"IH\" -D length1=3 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IH-3.png clip_and_block.scad -D model=\"IH\" -D length1=3 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IHR-2.stl clip_and_block.scad -D model=\"IHR\" -D length1=2 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IHR-2.png clip_and_block.scad -D model=\"IHR\" -D length1=2 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IHR-3.stl clip_and_block.scad -D model=\"IHR\" -D length1=3 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IHR-3.png clip_and_block.scad -D model=\"IHR\" -D length1=3 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IHR-9.stl clip_and_block.scad -D model=\"IHR\" -D length1=9 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/IHR-9.png clip_and_block.scad -D model=\"IHR\" -D length1=9 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/S-1-1-1.stl clip_and_block.scad -D model=\"S\" -D length1=1 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/S-1-1-1.png clip_and_block.scad -D model=\"S\" -D length1=1 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/S-2-1-2.stl clip_and_block.scad -D model=\"S\" -D length1=2 -D length2=1 -D length3=2
+openscad -o ./stl/basic-parts/S-2-1-2.png clip_and_block.scad -D model=\"S\" -D length1=2 -D length2=1 -D length3=2
+openscad -o ./stl/basic-parts/S-2-2-2.stl clip_and_block.scad -D model=\"S\" -D length1=2 -D length2=2 -D length3=2
+openscad -o ./stl/basic-parts/S-2-2-2.png clip_and_block.scad -D model=\"S\" -D length1=2 -D length2=2 -D length3=2
+openscad -o ./stl/basic-parts/S-2-3-2.stl clip_and_block.scad -D model=\"S\" -D length1=2 -D length2=3 -D length3=2
+openscad -o ./stl/basic-parts/S-2-3-2.png clip_and_block.scad -D model=\"S\" -D length1=2 -D length2=3 -D length3=2
+openscad -o ./stl/basic-parts/LF-2-2.stl clip_and_block.scad -D model=\"LF\" -D length1=2 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/LF-2-2.png clip_and_block.scad -D model=\"LF\" -D length1=2 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/LF-3-2.stl clip_and_block.scad -D model=\"LF\" -D length1=3 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/LF-3-2.png clip_and_block.scad -D model=\"LF\" -D length1=3 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/LF-4-2.stl clip_and_block.scad -D model=\"LF\" -D length1=4 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/LF-4-2.png clip_and_block.scad -D model=\"LF\" -D length1=4 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/LF-5-2.stl clip_and_block.scad -D model=\"LF\" -D length1=5 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/LF-5-2.png clip_and_block.scad -D model=\"LF\" -D length1=5 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/LF-6-2.stl clip_and_block.scad -D model=\"LF\" -D length1=6 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/LF-6-2.png clip_and_block.scad -D model=\"LF\" -D length1=6 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/LF-8-2.stl clip_and_block.scad -D model=\"LF\" -D length1=8 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/LF-8-2.png clip_and_block.scad -D model=\"LF\" -D length1=8 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/LF-3-3.stl clip_and_block.scad -D model=\"LF\" -D length1=3 -D length2=3 -D length3=1
+openscad -o ./stl/basic-parts/LF-3-3.png clip_and_block.scad -D model=\"LF\" -D length1=3 -D length2=3 -D length3=1
+openscad -o ./stl/basic-parts/LF-4-3.stl clip_and_block.scad -D model=\"LF\" -D length1=4 -D length2=3 -D length3=1
+openscad -o ./stl/basic-parts/LF-4-3.png clip_and_block.scad -D model=\"LF\" -D length1=4 -D length2=3 -D length3=1
+openscad -o ./stl/basic-parts/LF-6-3.stl clip_and_block.scad -D model=\"LF\" -D length1=6 -D length2=3 -D length3=1
+openscad -o ./stl/basic-parts/LF-6-3.png clip_and_block.scad -D model=\"LF\" -D length1=6 -D length2=3 -D length3=1
+openscad -o ./stl/basic-parts/LF-4-4.stl clip_and_block.scad -D model=\"LF\" -D length1=4 -D length2=4 -D length3=1
+openscad -o ./stl/basic-parts/LF-4-4.png clip_and_block.scad -D model=\"LF\" -D length1=4 -D length2=4 -D length3=1
+openscad -o ./stl/basic-parts/LF-6-4.stl clip_and_block.scad -D model=\"LF\" -D length1=6 -D length2=4 -D length3=1
+openscad -o ./stl/basic-parts/LF-6-4.png clip_and_block.scad -D model=\"LF\" -D length1=6 -D length2=4 -D length3=1
+openscad -o ./stl/basic-parts/LF-8-4.stl clip_and_block.scad -D model=\"LF\" -D length1=8 -D length2=4 -D length3=1
+openscad -o ./stl/basic-parts/LF-8-4.png clip_and_block.scad -D model=\"LF\" -D length1=8 -D length2=4 -D length3=1
+openscad -o ./stl/basic-parts/L-1-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-1-1-1.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-2-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-2-1-1.png clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-3-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=3 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-3-1-1.png clip_and_block.scad -D model=\"L\" -D length1=3 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-4-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-4-1-1.png clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-5-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=5 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-5-1-1.png clip_and_block.scad -D model=\"L\" -D length1=5 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-6-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=6 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-6-1-1.png clip_and_block.scad -D model=\"L\" -D length1=6 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-8-1-1.stl clip_and_block.scad -D model=\"L\" -D length1=8 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-8-1-1.png clip_and_block.scad -D model=\"L\" -D length1=8 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/L-2-2-1.stl clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/L-2-2-1.png clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/L-4-2-1.stl clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/L-4-2-1.png clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/L-6-2-1.stl clip_and_block.scad -D model=\"L\" -D length1=6 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/L-6-2-1.png clip_and_block.scad -D model=\"L\" -D length1=6 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/L-3-3-1.stl clip_and_block.scad -D model=\"L\" -D length1=3 -D length2=3 -D length3=1
+openscad -o ./stl/basic-parts/L-3-3-1.png clip_and_block.scad -D model=\"L\" -D length1=3 -D length2=3 -D length3=1
+openscad -o ./stl/basic-parts/L-4-4-1.stl clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=4 -D length3=1
+openscad -o ./stl/basic-parts/L-4-4-1.png clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=4 -D length3=1
+openscad -o ./stl/basic-parts/L-1-1-2.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=2
+openscad -o ./stl/basic-parts/L-1-1-2.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=2
+openscad -o ./stl/basic-parts/L-1-1-3.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=3
+openscad -o ./stl/basic-parts/L-1-1-3.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=3
+openscad -o ./stl/basic-parts/L-1-1-4.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=4
+openscad -o ./stl/basic-parts/L-1-1-4.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=4
+openscad -o ./stl/basic-parts/L-1-1-5.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=5
+openscad -o ./stl/basic-parts/L-1-1-5.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=5
+openscad -o ./stl/basic-parts/L-1-1-6.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=6
+openscad -o ./stl/basic-parts/L-1-1-6.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=6
+openscad -o ./stl/basic-parts/L-1-1-8.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=8
+openscad -o ./stl/basic-parts/L-1-1-8.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=8
+openscad -o ./stl/basic-parts/L-1-1-10.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=10
+openscad -o ./stl/basic-parts/L-1-1-10.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=10
+openscad -o ./stl/basic-parts/L-1-1-11.stl clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=11
+openscad -o ./stl/basic-parts/L-1-1-11.png clip_and_block.scad -D model=\"L\" -D length1=1 -D length2=1 -D length3=11
+openscad -o ./stl/basic-parts/L-2-1-2.stl clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=1 -D length3=2
+openscad -o ./stl/basic-parts/L-2-1-2.png clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=1 -D length3=2
+openscad -o ./stl/basic-parts/L-4-1-2.stl clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=1 -D length3=2
+openscad -o ./stl/basic-parts/L-4-1-2.png clip_and_block.scad -D model=\"L\" -D length1=4 -D length2=1 -D length3=2
+openscad -o ./stl/basic-parts/L-3-3-3.stl clip_and_block.scad -D model=\"L\" -D length1=3 -D length2=3 -D length3=3
+openscad -o ./stl/basic-parts/L-3-3-3.png clip_and_block.scad -D model=\"L\" -D length1=3 -D length2=3 -D length3=3
+openscad -o ./stl/basic-parts/L-2-2-3.stl clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=2 -D length3=3
+openscad -o ./stl/basic-parts/L-2-2-3.png clip_and_block.scad -D model=\"L\" -D length1=2 -D length2=2 -D length3=3
+openscad -o ./stl/basic-parts/P-2-2.stl clip_and_block.scad -D model=\"P\" -D length1=2 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/P-2-2.png clip_and_block.scad -D model=\"P\" -D length1=2 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/P-3-2.stl clip_and_block.scad -D model=\"P\" -D length1=3 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/P-3-2.png clip_and_block.scad -D model=\"P\" -D length1=3 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/P-4-2.stl clip_and_block.scad -D model=\"P\" -D length1=4 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/P-4-2.png clip_and_block.scad -D model=\"P\" -D length1=4 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/P-6-2.stl clip_and_block.scad -D model=\"P\" -D length1=6 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/P-6-2.png clip_and_block.scad -D model=\"P\" -D length1=6 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/P-8-2.stl clip_and_block.scad -D model=\"P\" -D length1=8 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/P-8-2.png clip_and_block.scad -D model=\"P\" -D length1=8 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/P-3-3.stl clip_and_block.scad -D model=\"P\" -D length1=3 -D length2=3 -D length3=1
+openscad -o ./stl/basic-parts/P-3-3.png clip_and_block.scad -D model=\"P\" -D length1=3 -D length2=3 -D length3=1
+openscad -o ./stl/basic-parts/P-4-4.stl clip_and_block.scad -D model=\"P\" -D length1=4 -D length2=4 -D length3=1
+openscad -o ./stl/basic-parts/P-4-4.png clip_and_block.scad -D model=\"P\" -D length1=4 -D length2=4 -D length3=1
+openscad -o ./stl/basic-parts/C-2-1-1.stl clip_and_block.scad -D model=\"C\" -D length1=2 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/C-2-1-1.png clip_and_block.scad -D model=\"C\" -D length1=2 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/C-3-1-1.stl clip_and_block.scad -D model=\"C\" -D length1=3 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/C-3-1-1.png clip_and_block.scad -D model=\"C\" -D length1=3 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/C-2-2-1.stl clip_and_block.scad -D model=\"C\" -D length1=2 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/C-2-2-1.png clip_and_block.scad -D model=\"C\" -D length1=2 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/C-2-2-2.stl clip_and_block.scad -D model=\"C\" -D length1=2 -D length2=2 -D length3=2
+openscad -o ./stl/basic-parts/C-2-2-2.png clip_and_block.scad -D model=\"C\" -D length1=2 -D length2=2 -D length3=2
+openscad -o ./stl/basic-parts/U-1-1-1.stl clip_and_block.scad -D model=\"U\" -D length1=1 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/U-1-1-1.png clip_and_block.scad -D model=\"U\" -D length1=1 -D length2=1 -D length3=1
+openscad -o ./stl/basic-parts/U-1-2-1.stl clip_and_block.scad -D model=\"U\" -D length1=1 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/U-1-2-1.png clip_and_block.scad -D model=\"U\" -D length1=1 -D length2=2 -D length3=1
+openscad -o ./stl/basic-parts/U-2-2-2.stl clip_and_block.scad -D model=\"U\" -D length1=2 -D length2=2 -D length3=2
+openscad -o ./stl/basic-parts/U-2-2-2.png clip_and_block.scad -D model=\"U\" -D length1=2 -D length2=2 -D length3=2
+openscad -o ./stl/basic-parts/U-3-3-3.stl clip_and_block.scad -D model=\"U\" -D length1=3 -D length2=3 -D length3=3
+openscad -o ./stl/basic-parts/U-3-3-3.png clip_and_block.scad -D model=\"U\" -D length1=3 -D length2=3 -D length3=3
+openscad -o ./stl/eletronic-parts/wire-1H.stl clip_and_block.scad -D model=\"FH\" -D filename=\"wire-1H.stl\" -D holeArray=[[0,-1,0],[0,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-1H.png clip_and_block.scad -D model=\"FH\" -D filename=\"wire-1H.stl\" -D holeArray=[[0,-1,0],[0,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-2H.stl clip_and_block.scad -D model=\"FH\" -D filename=\"wire-2H.stl\" -D holeArray=[[0,-1,0],[0,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-2H.png clip_and_block.scad -D model=\"FH\" -D filename=\"wire-2H.stl\" -D holeArray=[[0,-1,0],[0,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-3H.stl clip_and_block.scad -D model=\"FH\" -D filename=\"wire-3H.stl\" -D holeArray=[[0,-1,0],[0,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-3H.png clip_and_block.scad -D model=\"FH\" -D filename=\"wire-3H.stl\" -D holeArray=[[0,-1,0],[0,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-3H-strong.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-3H-strong.stl\" -D holeArray=[[0,-1,0],[0,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-3H-strong.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-3H-strong.stl\" -D holeArray=[[0,-1,0],[0,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-4H.stl clip_and_block.scad -D model=\"FH\" -D filename=\"wire-4H.stl\" -D holeArray=[[0,-1,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-4H.png clip_and_block.scad -D model=\"FH\" -D filename=\"wire-4H.stl\" -D holeArray=[[0,-1,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-4H-strong.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-4H-strong.stl\" -D holeArray=[[0,-1,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-4H-strong.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-4H-strong.stl\" -D holeArray=[[0,-1,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-5H.stl clip_and_block.scad -D model=\"FH\" -D filename=\"wire-5H.stl\" -D holeArray=[[0,-1,0],[0,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-5H.png clip_and_block.scad -D model=\"FH\" -D filename=\"wire-5H.stl\" -D holeArray=[[0,-1,0],[0,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-5H-strong.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-5H-strong.stl\" -D holeArray=[[0,-1,0],[0,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-5H-strong.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-5H-strong.stl\" -D holeArray=[[0,-1,0],[0,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/dupontx2.stl clip_and_block.scad -D model=\"FH\" -D filename=\"dupontx2.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/dupontx2.png clip_and_block.scad -D model=\"FH\" -D filename=\"dupontx2.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/dupontx4.stl clip_and_block.scad -D model=\"FH\" -D filename=\"dupontx4.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/dupontx4.png clip_and_block.scad -D model=\"FH\" -D filename=\"dupontx4.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/dupontx6.stl clip_and_block.scad -D model=\"FH\" -D filename=\"dupontx6.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/dupontx6.png clip_and_block.scad -D model=\"FH\" -D filename=\"dupontx6.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-3.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-3.stl\" -D holeArray=[[0,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-3.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-3.stl\" -D holeArray=[[0,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-3-otherside.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-3.stl\" -D holeArray=[[0,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[1,0,0]
+openscad -o ./stl/eletronic-parts/wire-3-otherside.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-3.stl\" -D holeArray=[[0,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[1,0,0]
+openscad -o ./stl/eletronic-parts/wire-3-2side.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-3.stl\" -D holeArray=[[0,-1,0],[0,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-3-2side.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-3.stl\" -D holeArray=[[0,-1,0],[0,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-6.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-6.stl\" -D holeArray=[[0,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-6.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-6.stl\" -D holeArray=[[0,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-6-otherside.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-6.stl\" -D holeArray=[[0,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[1,0,0]
+openscad -o ./stl/eletronic-parts/wire-6-otherside.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-6.stl\" -D holeArray=[[0,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[1,0,0]
+openscad -o ./stl/eletronic-parts/wire-6-2side.stl clip_and_block.scad -D model=\"F\" -D filename=\"wire-6.stl\" -D holeArray=[[0,-1,0],[0,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/wire-6-2side.png clip_and_block.scad -D model=\"F\" -D filename=\"wire-6.stl\" -D holeArray=[[0,-1,0],[0,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-2x1.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[0,2,0],[1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-2x1.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[0,2,0],[1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-2x1-front.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x1.stl\" -D holeArray=[[-1,0,0],[-1,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-2x1-front.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x1.stl\" -D holeArray=[[-1,0,0],[-1,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-2x1-1side.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-2x1-1side.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-3x1.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-3x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[0,2,0],[1,2,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-3x1.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-3x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[0,2,0],[1,2,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-3x1-1side.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-3x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-3x1-1side.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-3x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-2x2.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x2.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[0,-1,1],[1,-1,1],[0,2,0],[1,2,0],[0,2,1],[1,2,1]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-2x2.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-2x2.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[0,-1,1],[1,-1,1],[0,2,0],[1,2,0],[0,2,1],[1,2,1]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-4x1.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[3,-1,0],[0,2,0],[1,2,0],[2,2,0],[3,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-4x1.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[3,-1,0],[0,2,0],[1,2,0],[2,2,0],[3,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-4x1-large.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1-large.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[3,-1,0],[0,3,0],[1,3,0],[2,3,0],[3,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-4x1-large.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1-large.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[3,-1,0],[0,3,0],[1,3,0],[2,3,0],[3,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-4x1-front.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[4,0,0],[4,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-4x1-front.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[4,0,0],[4,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-4x1-1side.stl clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[3,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/sg90-4x1-1side.png clip_and_block.scad -D model=\"F\" -D filename=\"sg90-4x1.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[3,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/battery-shield-bottom-1.stl clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-bottom.stl\" -D holeArray=[[-1,-1,0]] -D finalRotate=[270,0,0] -D finalMirror=[0,1,0]
+openscad -o ./stl/eletronic-parts/battery-shield-bottom-1.png clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-bottom.stl\" -D holeArray=[[-1,-1,0]] -D finalRotate=[270,0,0] -D finalMirror=[0,1,0]
+openscad -o ./stl/eletronic-parts/battery-shield-bottom-2.stl clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-bottom.stl\" -D holeArray=[[-1,-1,0],[-2,-1,0]] -D finalRotate=[270,0,0] -D finalMirror=[0,1,0]
+openscad -o ./stl/eletronic-parts/battery-shield-bottom-2.png clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-bottom.stl\" -D holeArray=[[-1,-1,0],[-2,-1,0]] -D finalRotate=[270,0,0] -D finalMirror=[0,1,0]
+openscad -o ./stl/eletronic-parts/battery-shield-usb-1.stl clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-usb.stl\" -D holeArray=[[0,0,0]] -D finalRotate=[90,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/battery-shield-usb-1.png clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-usb.stl\" -D holeArray=[[0,0,0]] -D finalRotate=[90,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/battery-shield-usb-2.stl clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-usb.stl\" -D holeArray=[[0,0,0],[1,0,0]] -D finalRotate=[90,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/battery-shield-usb-2.png clip_and_block.scad -D model=\"F\" -D filename=\"battery-shield-usb.stl\" -D holeArray=[[0,0,0],[1,0,0]] -D finalRotate=[90,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/bme280.stl clip_and_block.scad -D model=\"FH\" -D filename=\"bme280.stl\" -D holeArray=[[-1,0,0],[2,0,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/bme280.png clip_and_block.scad -D model=\"FH\" -D filename=\"bme280.stl\" -D holeArray=[[-1,0,0],[2,0,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/l9110s-side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"l9110s.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[0,3,0],[1,3,0],[2,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/l9110s-side.png clip_and_block.scad -D model=\"FH\" -D filename=\"l9110s.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[2,-1,0],[0,3,0],[1,3,0],[2,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/l9110s-bottom.stl clip_and_block.scad -D model=\"FH\" -D filename=\"l9110s.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/l9110s-bottom.png clip_and_block.scad -D model=\"FH\" -D filename=\"l9110s.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-top-small.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top-small.stl\" -D holeArray=[[0,-1,0],[0,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-top-small.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top-small.stl\" -D holeArray=[[0,-1,0],[0,1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-bottom.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-bottom.stl\" -D holeArray=[[-5,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-bottom.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-bottom.stl\" -D holeArray=[[-5,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-top.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-top.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-bottom-2.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-bottom.stl\" -D holeArray=[[-5,0,0],[-5,1,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-bottom-2.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-bottom.stl\" -D holeArray=[[-5,0,0],[-5,1,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-top-2.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0],[0,1,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-top-2.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0],[0,1,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-bottom-2side.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-bottom.stl\" -D holeArray=[[0,0,0],[-5,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-bottom-2side.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-bottom.stl\" -D holeArray=[[0,0,0],[-5,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-top-2side2.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0],[0,1,0],[-5,0,0],[-5,1,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-top-2side2.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0],[0,1,0],[-5,0,0],[-5,1,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-top-2side.stl clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0],[-5,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/nodemcu-top-2side.png clip_and_block.scad -D model=\"F\" -D filename=\"nodemcu-top.stl\" -D holeArray=[[0,0,0],[-5,0,0]] -D finalRotate=[0,270,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/oled-128x64-top-2side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-top.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[3,0,0],[3,1,0],[3,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/oled-128x64-top-2side.png clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-top.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[3,0,0],[3,1,0],[3,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/oled-128x64-top-1side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/oled-128x64-top-1side.png clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/oled-128x64-bottom-2side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-top.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[3,0,0],[3,1,0],[3,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/oled-128x64-bottom-2side.png clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-top.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[3,0,0],[3,1,0],[3,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/oled-128x64-bottom-1side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/oled-128x64-bottom-1side.png clip_and_block.scad -D model=\"FH\" -D filename=\"oled-128x64-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/18650x2-holder-bottom.stl clip_and_block.scad -D model=\"F\" -D filename=\"18650x2-holder.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[-1,3,0],[-1,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/18650x2-holder-bottom.png clip_and_block.scad -D model=\"F\" -D filename=\"18650x2-holder.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[-1,3,0],[-1,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/18650x2-holder-1.stl clip_and_block.scad -D model=\"F\" -D filename=\"18650x2-holder.stl\" -D holeArray=[[0,-1,0],[0,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/18650x2-holder-1.png clip_and_block.scad -D model=\"F\" -D filename=\"18650x2-holder.stl\" -D holeArray=[[0,-1,0],[0,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/18650x2-holder.stl clip_and_block.scad -D model=\"F\" -D filename=\"18650x2-holder.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[0,5,0],[1,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/18650x2-holder.png clip_and_block.scad -D model=\"F\" -D filename=\"18650x2-holder.stl\" -D holeArray=[[0,-1,0],[1,-1,0],[0,5,0],[1,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/button14x20-bottom-1side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/button14x20-bottom-1side.png clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/button14x20-top-1side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-top.stl\" -D holeArray=[[2,0,0],[2,1,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/button14x20-top-1side.png clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-top.stl\" -D holeArray=[[2,0,0],[2,1,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/button14x20-bottom-2side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[2,0,0],[2,1,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/button14x20-bottom-2side.png clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-bottom.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[2,0,0],[2,1,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/button14x20-top-2side.stl clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-top.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[2,0,0],[2,1,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/button14x20-top-2side.png clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-top.stl\" -D holeArray=[[-1,0,0],[-1,1,0],[-1,2,0],[2,0,0],[2,1,0],[2,2,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/button14x20-bottom-small.stl clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-bottom.stl\" -D holeArray=[[0,3,0],[1,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/button14x20-bottom-small.png clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-bottom.stl\" -D holeArray=[[0,3,0],[1,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/button14x20-top-small.stl clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-top.stl\" -D holeArray=[[0,3,0],[1,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/button14x20-top-small.png clip_and_block.scad -D model=\"FH\" -D filename=\"button14x20-half-top.stl\" -D holeArray=[[0,3,0],[1,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/dc-motor-v2.stl clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2.stl\" -D holeArray=[[-1,-1,0],[-1,3,0]] -D finalRotate=[90,0,0] -D finalMirror=[1,0,0]
+openscad -o ./stl/eletronic-parts/dc-motor-v2.png clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2.stl\" -D holeArray=[[-1,-1,0],[-1,3,0]] -D finalRotate=[90,0,0] -D finalMirror=[1,0,0]
+openscad -o ./stl/eletronic-parts/dc-motor-v2-double.stl clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2.stl\" -D holeArray=[[-1,-1,0],[-1,3,0],[-1,4,0]] -D finalRotate=[90,0,0] -D finalMirror=[1,0,0]
+openscad -o ./stl/eletronic-parts/dc-motor-v2-double.png clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2.stl\" -D holeArray=[[-1,-1,0],[-1,3,0],[-1,4,0]] -D finalRotate=[90,0,0] -D finalMirror=[1,0,0]
+openscad -o ./stl/eletronic-parts/dc-motor-v2-down.stl clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2-down.stl\" -D holeArray=[[-1,-1,0],[-1,3,0]] -D finalRotate=[270,0,0] -D finalMirror=[1,0,0]
+openscad -o ./stl/eletronic-parts/dc-motor-v2-down.png clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2-down.stl\" -D holeArray=[[-1,-1,0],[-1,3,0]] -D finalRotate=[270,0,0] -D finalMirror=[1,0,0]
+openscad -o ./stl/eletronic-parts/dc-motor-v2-down-double.stl clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2-down.stl\" -D holeArray=[[-1,-1,0],[-1,3,0],[-1,4,0]] -D finalRotate=[270,0,0] -D finalMirror=[1,0,0]
+openscad -o ./stl/eletronic-parts/dc-motor-v2-down-double.png clip_and_block.scad -D model=\"F\" -D filename=\"dc-motor-v2-down.stl\" -D holeArray=[[-1,-1,0],[-1,3,0],[-1,4,0]] -D finalRotate=[270,0,0] -D finalMirror=[1,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-bottom.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0],[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-bottom.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0],[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-top.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0],[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-top.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0],[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-1other-side-bottom.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-1other-side-bottom.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-1other-side-top.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-1other-side-top.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-1side-bottom.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-1side-bottom.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[0,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-1side-top.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-1side-top.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0],[-4,4,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-small-bottom.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[-1,5,0],[-2,5,0],[-3,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-small-bottom.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-bottom.stl\" -D holeArray=[[-1,5,0],[-2,5,0],[-3,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-small-top.stl clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[-1,5,0],[-2,5,0],[-3,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/tm1637-small-top.png clip_and_block.scad -D model=\"F\" -D filename=\"TM1637-top.stl\" -D holeArray=[[-1,5,0],[-2,5,0],[-3,5,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/D1-mini.stl clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/D1-mini.png clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0],[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/D1-mini-one-side.stl clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/D1-mini-one-side.png clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[0,0,0],[0,1,0],[0,2,0],[0,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/D1-mini-other-side.stl clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/D1-mini-other-side.png clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[-4,0,0],[-4,1,0],[-4,2,0],[-4,3,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/D1-mini-small.stl clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[-1,-1,0],[-2,-1,0],[-3,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
+openscad -o ./stl/eletronic-parts/D1-mini-small.png clip_and_block.scad -D model=\"F\" -D filename=\"D1-mini.stl\" -D holeArray=[[-1,-1,0],[-2,-1,0],[-3,-1,0]] -D finalRotate=[0,0,0] -D finalMirror=[0,0,0]
