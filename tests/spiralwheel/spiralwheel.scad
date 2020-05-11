@@ -1,26 +1,30 @@
-/*   	Parametric airless tire
+/*   	Parametric airlehttps://news.google.com/?tab=wn&hl=fr&gl=FR&ceid=FR:frhttps://news.google.com/?tab=wn&hl=fr&gl=FR&ceid=FR:frss tire
 		by Travis Howse <tjhowse@gmail.com>
 		2012.   License, GPL v2 or later
 **************************************************/
 // https://www.thingiverse.com/thing:17514/files
-dia_in = 1;
-dia_out = 65;//65;
+type="dc-gearbox"; // clip, washer, dc-gearbox
+
+dia_out = 1;//65;
+height = 10;
 spoke_count = 8;
 spoke_thickness = 0.5;
 tread_thickness = 0.5;
-hub_thickness = 5;
-height = 10;
-washer_height = 4;
+
+ r1=3.2; 
+ r2=2.75;
+
+dia_in = 1;
+hub_thickness = 7;
+
 $fn = 30;
 spoke_dia = (dia_in/2) + hub_thickness + (dia_out/2) - tread_thickness+spoke_thickness;
-grip_density = 0.05; // Set to 0 for no grip.
-grip_height = 1.5;
+grip_density = 0.05;//0.05; // Set to 0 for no grip.
+grip_height = 1.;
 grip_depth = 2;
 pi = 3.14159;
 zff = 0.001;
-
-print_wheel = true;
-
+washer_height = height;
 
 //Set to 1 for a double spiral.
 // Note: single-wall spokes probably won't work with double spirals, as the
@@ -79,7 +83,32 @@ module spoke()
 		}
 	}
 }
-if (print_wheel) {
+
+if (type == "clip") {
+    mirror([0,0,1]) {
+        translate([0,0,-height]) {
+            difference() {
+                wheel();
+                
+                // Center of the wheel
+                cylinder(h=height, r1=3.6, r2=3.6, center=false);
+                cylinder(h=height - 3.2, r=5.15, center=false);
+            }
+        }
+    }
+    
+}
+
+//Washer
+if (type == "washer") {
+    difference() {
+        // Center of the wheel
+        cylinder(h=height, r1=hub_thickness, r2=hub_thickness, center=false);
+        cylinder(h=height, r=3.6, center=false);
+    }
+}
+
+if (type == "dc-gearbox") {
     
     mirror([0,0,1]) {
         translate([0,0,-height]) {
@@ -94,7 +123,7 @@ if (print_wheel) {
                 
                 //cylinder(h=10, r=4 , center=false);
                 translate([0,0,-washer_height]) {
-                    cylinder(h=7+washer_height, r1=3.2, r2=2.75 , center=false);
+                    cylinder(h=7+washer_height, r1=r1, r2=r2 , center=false);
                 }
                 
 
@@ -109,5 +138,3 @@ if (print_wheel) {
         }
     }
 }
-
-

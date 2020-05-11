@@ -107,9 +107,27 @@ with open('list-categories.csv', newline='') as csvFileCategories:
                 reader = csv.DictReader(csvfile, dialect=dialect)
                 
                 for row in reader:
-                    stl = "openscad -o "
+                    # Generate STL
+                    stl = "openscad -o " + rowCategories['stl_directory'] + '/' + row['Filename'] + " " + rowCategories['scad_file']
+                    stl += " -D type=" + quote + row['type'] + quote
+                    stl += " -D dia_out=" + row['dia_out']
+                    stl += " -D height=" + row['height']
+                    stl += " -D spoke_count=" + row['spoke_count']
+                    stl += " -D spoke_thickness=" + row['spoke_thickness']
+                    stl += " -D tread_tickness=" + row['tread_tickness']
+                    stl += " -D r1=" + row['r1'] 
+                    stl += " -D r2=" + row['r2'] 
+                    print (stl)
+                    file.write(stl + "\n")
 
-                    
+                    #Generate preview
+                    preview = stl.replace(".stl", ".png", 1)
+                    #Preview in another directory
+                    #preview = preview.replace("electronic", "electronic/preview", 1) 
+                    file.write(preview + "\n")                    
+
+
+
         if 'Clips' in rowCategories['Name']:
             #Only for preview
             StlFiles = os.listdir("./stl/clips")

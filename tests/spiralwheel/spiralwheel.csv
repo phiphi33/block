@@ -1,0 +1,6 @@
+Filename;type;dia_out;height;spoke_count;spoke_thickness;tread_tickness;r1;r2
+SP65-clip.stl;clip;65;10;8;0.5;0.5;0;0
+SP65-dc-gearbox.stl;dc-gearbox;65;10;8;0.5;0.5;3.2;2.75
+washer.stl;washer;0;1.5;0;0;0;0;0
+test-clip.stl;clip;1;10;8;0.5;0.5;0;0
+test-dc-gearbox.stl;dc-gearbox;10;2;8;0.5;0.5;3.2;2.75
