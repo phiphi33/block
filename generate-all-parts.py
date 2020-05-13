@@ -7,6 +7,8 @@ if len(sys.argv) > 1:
 else:
     PartType = ""
 
+
+
 quote = "\\\""
 
 # Read list-categories.csv
@@ -16,6 +18,12 @@ with open('list-categories.csv', newline='') as csvFileCategories:
     ReaderCategories = csv.DictReader(csvFileCategories, dialect=dialect)
 
     file = open("openscad-commands.txt","w")    
+    if "help" in PartType:
+        print ("Usage : generate-all-parts.py <category name>")
+        print ("Categories list :")
+        for rowCategories in ReaderCategories:
+            print (rowCategories['Name'])
+        sys.exit()    
     for rowCategories in ReaderCategories:
         #For all categories
         #Create path

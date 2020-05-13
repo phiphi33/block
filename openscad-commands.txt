@@ -1,18 +1,7 @@
-openscad -o ./tests/spiralwheel/stl/test-clip.stl ./tests/spiralwheel/spiralwheel.scad -D type=\"clip\" -D dia_out=1 -D height=10 -D spoke_count=8 -D spoke_thickness=0.5 -D tread_tickness=0.5 -D r1=0 -D r2=0
-openscad -o ./tests/spiralwheel/stl/test-clip.png ./tests/spiralwheel/spiralwheel.scad -D type=\"clip\" -D dia_out=1 -D height=10 -D spoke_count=8 -D spoke_thickness=0.5 -D tread_tickness=0.5 -D r1=0 -D r2=0
-openscad -o ./tests/spiralwheel/stl/test-dc-gearbox.stl ./tests/spiralwheel/spiralwheel.scad -D type=\"dc-gearbox\" -D dia_out=1 -D height=10 -D spoke_count=8 -D spoke_thickness=0.5 -D tread_tickness=0.5 -D r1=3.2 -D r2=2.75
-openscad -o ./tests/spiralwheel/stl/test-dc-gearbox.png ./tests/spiralwheel/spiralwheel.scad -D type=\"dc-gearbox\" -D dia_out=1 -D height=10 -D spoke_count=8 -D spoke_thickness=0.5 -D tread_tickness=0.5 -D r1=3.2 -D r2=2.75
-openscad -o ./tests/spiralwheel/stl/SP65-medium-clip.stl ./tests/spiralwheel/spiralwheel.scad -D type=\"clip\" -D dia_out=65 -D height=10 -D spoke_count=5 -D spoke_thickness=1 -D tread_tickness=0.5 -D r1=0 -D r2=0
-openscad --render -o ./tests/spiralwheel/stl/SP65-medium-clip.png ./tests/spiralwheel/spiralwheel.scad -D type=\"clip\" -D dia_out=65 -D height=10 -D spoke_count=5 -D spoke_thickness=1 -D tread_tickness=0.5 -D r1=0 -D r2=0
-openscad -o ./tests/spiralwheel/stl/SP65-medium-dc-gearbox.stl ./tests/spiralwheel/spiralwheel.scad -D type=\"dc-gearbox\" -D dia_out=65 -D height=10 -D spoke_count=5 -D spoke_thickness=1 -D tread_tickness=0.5 -D r1=3.2 -D r2=2.75
-openscad -o ./tests/spiralwheel/stl/SP65-medium-dc-gearbox.png ./tests/spiralwheel/spiralwheel.scad -D type=\"dc-gearbox\" -D dia_out=65 -D height=10 -D spoke_count=5 -D spoke_thickness=1 -D tread_tickness=0.5 -D r1=3.2 -D r2=2.75
-openscad -o ./tests/spiralwheel/stl/SP65-soft-clip.stl ./tests/spiralwheel/spiralwheel.scad -D type=\"clip\" -D dia_out=65 -D height=10 -D spoke_count=8 -D spoke_thickness=0.5 -D tread_tickness=0.5 -D r1=0 -D r2=0
-openscad -o ./tests/spiralwheel/stl/SP65-soft-clip.png ./tests/spiralwheel/spiralwheel.scad -D type=\"clip\" -D dia_out=65 -D height=10 -D spoke_count=8 -D spoke_thickness=0.5 -D tread_tickness=0.5 -D r1=0 -D r2=0
-openscad -o ./tests/spiralwheel/stl/SP65-soft-dc-gearbox.stl ./tests/spiralwheel/spiralwheel.scad -D type=\"dc-gearbox\" -D dia_out=65 -D height=10 -D spoke_count=8 -D spoke_thickness=0.5 -D tread_tickness=0.5 -D r1=3.2 -D r2=2.75
-openscad -o ./tests/spiralwheel/stl/SP65-soft-dc-gearbox.png ./tests/spiralwheel/spiralwheel.scad -D type=\"dc-gearbox\" -D dia_out=65 -D height=10 -D spoke_count=8 -D spoke_thickness=0.5 -D tread_tickness=0.5 -D r1=3.2 -D r2=2.75
-openscad -o ./tests/spiralwheel/stl/SP65-hard-clip.stl ./tests/spiralwheel/spiralwheel.scad -D type=\"clip\" -D dia_out=65 -D height=10 -D spoke_count=5 -D spoke_thickness=1 -D tread_tickness=1 -D r1=0 -D r2=0
-openscad -o ./tests/spiralwheel/stl/SP65-hard-clip.png ./tests/spiralwheel/spiralwheel.scad -D type=\"clip\" -D dia_out=65 -D height=10 -D spoke_count=5 -D spoke_thickness=1 -D tread_tickness=1 -D r1=0 -D r2=0
-openscad -o ./tests/spiralwheel/stl/SP65-hard-dc-gearbox.stl ./tests/spiralwheel/spiralwheel.scad -D type=\"dc-gearbox\" -D dia_out=65 -D height=10 -D spoke_count=8 -D spoke_thickness=1 -D tread_tickness=1 -D r1=3.2 -D r2=2.75
-openscad -o ./tests/spiralwheel/stl/SP65-hard-dc-gearbox.png ./tests/spiralwheel/spiralwheel.scad -D type=\"dc-gearbox\" -D dia_out=65 -D height=10 -D spoke_count=8 -D spoke_thickness=1 -D tread_tickness=1 -D r1=3.2 -D r2=2.75
-openscad -o ./tests/spiralwheel/stl/washer.stl ./tests/spiralwheel/spiralwheel.scad -D type=\"washer\" -D dia_out=0 -D height=1.5 -D spoke_count=0 -D spoke_thickness=0 -D tread_tickness=0 -D r1=0 -D r2=0
-openscad -o ./tests/spiralwheel/stl/washer.png ./tests/spiralwheel/spiralwheel.scad -D type=\"washer\" -D dia_out=0 -D height=1.5 -D spoke_count=0 -D spoke_thickness=0 -D tread_tickness=0 -D r1=0 -D r2=0
+openscad -o ./stl/clips/blocker-3.png stl_preview.scad -D filename=\"./stl/clips/blocker-3.stl\"
+openscad -o ./stl/clips/clip-2.png stl_preview.scad -D filename=\"./stl/clips/clip-2.stl\"
+openscad -o ./stl/clips/clip-4.png stl_preview.scad -D filename=\"./stl/clips/clip-4.stl\"
+openscad -o ./stl/clips/blocker-4.png stl_preview.scad -D filename=\"./stl/clips/blocker-4.stl\"
+openscad -o ./stl/clips/blocker-2.png stl_preview.scad -D filename=\"./stl/clips/blocker-2.stl\"
+openscad -o ./stl/clips/clip-2a.png stl_preview.scad -D filename=\"./stl/clips/clip-2a.stl\"
+openscad -o ./stl/clips/clip-3.png stl_preview.scad -D filename=\"./stl/clips/clip-3.stl\"
