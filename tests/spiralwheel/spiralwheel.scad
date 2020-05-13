@@ -130,10 +130,10 @@ if (type == "dc-gearbox") {
             }
 
             translate([1.9,-3,0-washer_height])
-                cube([2,6,6]);
+                cube([2,6,height+washer_height]);
 
             translate([-1.9-2,-3,0-washer_height])
-                cube([2,6,6]);
+                cube([2,6,height+washer_height]);
             
         }
     }
