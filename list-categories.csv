@@ -3,4 +3,4 @@ Spiralwheel;./tests/spiralwheel/spiralwheel.scad;./tests/spiralwheel/spiralwheel
 Lego;./tests/lego/clip_and_block_lego.scad;./tests/lego/lego-parts.csv;./tests/lego/stl
 Clips;stl_preview.scad;clips.csv;./stl/clips
 Basic-parts;clip_and_block.scad;basic-parts.csv;./stl/basic-parts
-Electronic-parts;clip_and_block.scad;electronic-parts.csv;./stl/eletronic-parts
+Electronic-parts;clip_and_block.scad;electronic-parts.csv;./stl/electronic-parts
