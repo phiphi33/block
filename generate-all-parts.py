@@ -24,6 +24,7 @@ with open('list-categories.csv', newline='') as csvFileCategories:
         for rowCategories in ReaderCategories:
             print (rowCategories['Name'])
         sys.exit()    
+
     for rowCategories in ReaderCategories:
         #For all categories
         #Create path
@@ -36,10 +37,12 @@ with open('list-categories.csv', newline='') as csvFileCategories:
                 dialect = csv.Sniffer().sniff(csvfile.read(2048), delimiters=";")   
                 csvfile.seek(0)
                 reader = csv.DictReader(csvfile, dialect=dialect)
-                
+
                 for row in reader:
+                    if not os.path.exists(rowCategories['stl_directory'] + '/' + row['Directory']):
+                        os.makedirs(rowCategories['stl_directory'] + '/' + row['Directory'])                    
                     # Generate STL
-                    stl = "openscad -o " + rowCategories['stl_directory'] + '/' + row['Filename'] + " " + rowCategories['scad_file']
+                    stl = "openscad -o " + rowCategories['stl_directory'] + '/' + row['Directory'] + '/' + row['Filename'] + " " + rowCategories['scad_file']
                     stl += " -D model=" + quote + row['Model'] + quote
                     stl += " -D filename=" + quote + row['STL_source'] + quote
                     stl += " -D holeArray=[" + row['holeArray'] + "]"

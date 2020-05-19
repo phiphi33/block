@@ -1,14 +1,14 @@
 size =9.6;
-model="FH";
+model="F";
 
 length1=2;
 length2=3;
 length3=3 ;
 
-filename="wire-1H.stl";
-holeArray=[[0,-1,0],[0,2,0]];
+filename="nodemcu-top.stl";
+holeArray=[[0,-1,0],[0,4,0],[1,-1,0],[1,4,0]];
 
-finalRotate=[0,0,0];
+finalRotate=[90,0,0];
 finalMirror=[0,0,0];
 
 rotate([finalRotate[0], finalRotate[1], finalRotate[2]]) {
