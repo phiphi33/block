@@ -8,7 +8,7 @@ length3=3 ;
 filename="nodemcu-top.stl";
 holeArray=[[0,-1,0],[0,4,0],[1,-1,0],[1,4,0]];
 
-finalRotate=[90,0,0];
+finalRotate=[0,0,0];
 finalMirror=[0,0,0];
 
 rotate([finalRotate[0], finalRotate[1], finalRotate[2]]) {
