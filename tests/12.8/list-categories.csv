@@ -1,0 +1,3 @@
+Name;scad_file;csv_file;stl_directory
+clips;stl_preview.scad;clips.csv;./stl/clips
+basic-parts;clip_and_block.scad;basic-parts.csv;./stl/basic-parts
