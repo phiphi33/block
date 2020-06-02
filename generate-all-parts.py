@@ -28,10 +28,11 @@ with open('list-categories.csv', newline='') as csvFileCategories:
     for rowCategories in ReaderCategories:
         #For all categories
         #Create path
+        
         if not os.path.exists(rowCategories['stl_directory']):
             os.makedirs(rowCategories['stl_directory'])
 
-        if "Electronic-parts" in rowCategories['Name'] and (PartType == "" or PartType == "Electronic-parts"):
+        if "electronic-parts" in rowCategories['Name'] and (PartType == "" or PartType == "electronic-parts"):
             with open(rowCategories['csv_file'], newline='') as csvfile:
                 #Read csv file
                 dialect = csv.Sniffer().sniff(csvfile.read(2048), delimiters=";")   
@@ -58,7 +59,7 @@ with open('list-categories.csv', newline='') as csvFileCategories:
                     file.write(preview + "\n")
                     #TODO : 1 image ? https://stackoverflow.com/questions/30227466/combine-several-images-horizontally-with-python
 
-        if 'Basic-parts' in rowCategories['Name'] and (PartType == "" or PartType == "Basic-parts"):
+        if 'basic-parts' in rowCategories['Name'] and (PartType == "" or PartType == "basic-parts"):
             print (csv.list_dialects())
             with open(rowCategories['csv_file'], newline='') as csvfile:
                 #Read csv file
@@ -87,7 +88,7 @@ with open('list-categories.csv', newline='') as csvFileCategories:
                     file.write(preview + "\n")  
 
 
-        if 'Lego' in rowCategories['Name'] and (PartType == "" or PartType == "Lego"):
+        if 'lego' in rowCategories['Name'] and (PartType == "" or PartType == "lego"):
             print (csv.list_dialects())
             with open(rowCategories['csv_file'], newline='') as csvfile:
                 #Read csv file
@@ -114,7 +115,7 @@ with open('list-categories.csv', newline='') as csvFileCategories:
                     #preview = preview.replace("electronic", "electronic/preview", 1) 
                     file.write(preview + "\n")                    
 
-        if 'Spiralwheel' in rowCategories['Name'] and (PartType == "" or PartType == "Spiralwheel"):
+        if 'spiralwheel' in rowCategories['Name'] and (PartType == "" or PartType == "spiralwheel"):
             print (csv.list_dialects())
             with open(rowCategories['csv_file'], newline='') as csvfile:
                 #Read csv file
@@ -144,7 +145,7 @@ with open('list-categories.csv', newline='') as csvFileCategories:
 
 
 
-        if 'Clips' in rowCategories['Name'] and (PartType == "" or PartType == "Clips"):
+        if 'clips' in rowCategories['Name'] and (PartType == "" or PartType == "clips"):
             #Only for preview
             StlFiles = os.listdir("./stl/clips")
             for StlFile in StlFiles:
