@@ -1,6 +1,6 @@
 Name;scad_file;csv_file;stl_directory
+electronic-parts;clip_and_block.scad;electronic-parts.csv;./stl/electronic-parts
 spiralwheel;./tests/spiralwheel/spiralwheel.scad;./tests/spiralwheel/spiralwheel.csv;./tests/spiralwheel/stl
 lego;./tests/lego/clip_and_block_lego.scad;./tests/lego/lego-parts.csv;./tests/lego/stl
 clips;stl_preview.scad;clips.csv;./stl/clips
 basic-parts;clip_and_block.scad;basic-parts.csv;./stl/basic-parts
-electronic-parts;clip_and_block.scad;electronic-parts.csv;./stl/electronic-parts
