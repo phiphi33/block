@@ -1,3 +1,6 @@
+# Help :
+# python ./generate-all-parts.py help
+
 import os
 import csv
 import sys
