@@ -1,4 +1,5 @@
 Name;scad_file;csv_file;stl_directory
+generic-corner;clip_and_block_generic.scad;electronic-generic.csv;./stl/lectronic-parts/generic-corner
 electronic-parts;clip_and_block.scad;electronic-parts.csv;./stl/electronic-parts
 spiralwheel;./tests/spiralwheel/spiralwheel.scad;./tests/spiralwheel/spiralwheel.csv;./tests/spiralwheel/stl
 lego;./tests/lego/clip_and_block_lego.scad;./tests/lego/lego-parts.csv;./tests/lego/stl
