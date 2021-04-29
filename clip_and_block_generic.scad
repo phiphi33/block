@@ -4,10 +4,9 @@ model="F";
 
 holes = 3;
 
-xShift=3 ; //  values for x,y : 1, 2, 3, 4, 5, 6
+xShift=3 ; // values for xShift, xShiftEnd : 1, 2, 3, 4, 5, 6
+yShift=2 ; // values for yShift : 0, 1, 2, 3, 4, 5
 xShiftEnd=1 ;
-yShift=2 ; // 
-
 
 
 finalRotate=[0,0,270];

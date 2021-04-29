@@ -10,7 +10,7 @@ if len(sys.argv) > 1:
 else:
     PartType = ""
 
-
+print("start...")
 
 quote = "\\\""
 
@@ -80,6 +80,36 @@ with open('list-categories.csv', newline='') as csvFileCategories:
                     stl += " -D length1=" + str(length1)
                     stl += " -D length2=" + str(length2)
                     stl += " -D length3=" + str(length3)
+                    #stl = "openscad -o ./stl/basic/{4} clip_and_block.scad -D model=\\\"{0}\\\" -D length1={1} -D length2={2} -D length3={3}".format(model, length1, length2, length3, filename)
+                    file.write(stl + "\n")    
+                    print(stl)
+
+                    #Generate preview
+                    preview = stl.replace(".stl", ".png", 1)
+                    #Preview in another directory
+                    #preview = preview.replace("electronic", "electronic/preview", 1) 
+                    file.write(preview + "\n")  
+
+        if 'electronic-generic' in rowCategories['Name'] and (PartType == "" or PartType == "electronic-generic"):
+            print("electronic-generic")
+            print (csv.list_dialects())
+            with open(rowCategories['csv_file'], newline='') as csvfile:
+                #Read csv file
+                reader = csv.DictReader(csvfile, dialect='excel')
+                
+                for row in reader:
+                    params = row['Name'].split("-")
+                    print(params)
+                    holes = params[1]
+                    xShift = params[2] if len(params) > 2 else 1
+                    yShift = params[3] if len(params) > 3 else 0
+                    xShiftEnd = params[4] if len(params) > 4 else 1
+                    filename = row['Name'] + ".stl"
+                    stl = "openscad -o " + rowCategories['stl_directory'] + '/' +  row['Name'] + ".stl" + " " + rowCategories['scad_file']
+                    stl += " -D holes=" + str(holes)
+                    stl += " -D xShift=" + str(xShift)
+                    stl += " -D yShift=" + str(yShift)
+                    stl += " -D xShiftEnd=" + str(xShiftEnd)
                     #stl = "openscad -o ./stl/basic/{4} clip_and_block.scad -D model=\\\"{0}\\\" -D length1={1} -D length2={2} -D length3={3}".format(model, length1, length2, length3, filename)
                     file.write(stl + "\n")    
                     print(stl)
