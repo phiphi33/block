@@ -14,6 +14,36 @@ print("start...")
 
 quote = "\\\""
 
+if "DAT" in PartType:
+    # Create dat directory
+    if not os.path.exists('./dat/parts'):
+        os.makedirs('./dat/parts')
+
+    # Check if stlToDat.py is here
+    if not os.path.isfile('./stlToDat.py'):
+        print ("please install stlToDat.py")
+
+    # parse ./stl directory
+    for path, subdirs, files in os.walk('./stl'):
+        files = [ file for file in files if file.endswith( ('.stl') ) ]
+        for name in files:
+            print(name)
+            print(path)
+            # check if path exist
+            # datPath = path.replace("./stl", "./dat/parts")
+            datPath = "./dat/parts"
+            datName = name.replace(".stl", ".dat")
+            if not os.path.exists(datPath):
+                os.makedirs(datPath)
+            command = "python ./stlToDat.py " + path + "/" + name + " " + datPath + "/" + datName
+            print(command)
+            os.system(command)
+
+    # create zip
+    # Finish script
+    sys.exit()
+    
+
 # Read list-categories.csv
 with open('list-categories.csv', newline='') as csvFileCategories:
     dialect = csv.Sniffer().sniff(csvFileCategories.read(2048), delimiters=";")   
@@ -26,6 +56,9 @@ with open('list-categories.csv', newline='') as csvFileCategories:
         print ("Categories list :")
         for rowCategories in ReaderCategories:
             print (rowCategories['Name'])
+        print ("You can also use : generate-all-parts.py DAT")
+        print ("To generate DAT directory")
+        print ("Then install leocad and launch leocad -l ./dat")
         sys.exit()    
 
     for rowCategories in ReaderCategories:

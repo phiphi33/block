@@ -2,11 +2,11 @@ size =9.6;
 cornerSize = 3.6;
 model="F";
 
-holes = 3;
+holes = 5;
 
-xShift=3 ; // values for xShift, xShiftEnd : 1, 2, 3, 4, 5, 6
-yShift=2 ; // values for yShift : 0, 1, 2, 3, 4, 5
-xShiftEnd=1 ;
+xShift=4 ; // values for xShift, xShiftEnd : 1, 2, 3, 4, 5, 6
+yShift=1 ; // values for yShift : 0, 1, 2, 3, 4, 5
+xShiftEnd=4 ;
 
 
 finalRotate=[0,0,270];
