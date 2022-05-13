@@ -1,4 +1,4 @@
-0 ./dat/parts/dc-motor-v2-down-double.dat
+0 ./parts/dc-motor-v2-down-double.dat
 0 !LDRAW Unofficial_part
 0 BFC CERTIFY CCW
 3 16  24.000 0.000 24.000 24.000 12.000 0.000 24.000 12.000 24.000

@@ -1,9 +1,9 @@
 size =9.6;
-model="F";
+model="UF";
 
-length1=2;
-length2=3;
-length3=3 ;
+length1=4;
+length2=13;
+length3=4 ;
 
 filename="generic-corner24.stl";
 holeArray=[[-1,0,0]];
@@ -85,6 +85,20 @@ mirror([finalMirror[0], finalMirror[1], finalMirror[2]]) {
 
     //Model LF (L Flat)
     if (model == "LF") {
+        for (x = [0:length1-1]) {
+            echo (x);
+            translate([0,x*size,0]) holeCube();
+        }
+       for (x = [0:length2-1]) {
+            translate([x*size,(length1-1)*size,0]) holeCube();
+        }  
+       for (x = [0:length3-1]) {
+            translate([x*size,(length2-1)*size,0]) holeCube();
+        }          
+    }
+
+    //Model UF (U Flat)
+    if (model == "UF") {
         for (x = [0:length1-1]) {
             echo (x);
             translate([0,x*size,0]) holeCube();

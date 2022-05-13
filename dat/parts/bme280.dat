@@ -1,4 +1,4 @@
-0 ./dat/parts/bme280.dat
+0 ./parts/bme280.dat
 0 !LDRAW Unofficial_part
 0 BFC CERTIFY CCW
 3 16  24.000 0.000 0.000 33.500 0.000 6.000 24.000 0.000 6.000

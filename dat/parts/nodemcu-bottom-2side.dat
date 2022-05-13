@@ -1,4 +1,4 @@
-0 ./dat/parts/nodemcu-bottom-2side.dat
+0 ./parts/nodemcu-bottom-2side.dat
 0 !LDRAW Unofficial_part
 0 BFC CERTIFY CCW
 3 16  -13.750 -23.625 0.000 -12.000 0.000 0.000 -2.500 -23.625 0.000

@@ -1,4 +1,4 @@
-0 ./dat/parts/oled-128x64-top-2side.dat
+0 ./parts/oled-128x64-top-2side.dat
 0 !LDRAW Unofficial_part
 0 BFC CERTIFY CCW
 3 16  72.000 72.000 6.000 67.375 71.750 6.000 72.000 0.000 6.000
