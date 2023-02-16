@@ -7,6 +7,8 @@ For example, for the module ESP32-CAM, the size is 39.4mm x 26.8mm
 
 ## Define a grid of holes
 You need to have a minimum of 1mm on each side of the module. So here is the number of holes for the size :
+
+
 |# of holes|size|max size for the module|
 |2 holes|19.2|17.2|
 |3 holes|28.8|26.8|
