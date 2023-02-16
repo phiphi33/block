@@ -10,6 +10,7 @@ You need to have a minimum of 1mm on each side of the module. So here is the num
 
 
 |# of holes|size|max size for the module|
+|---|---|---|
 |2 holes|19.2|17.2|
 |3 holes|28.8|26.8|
 |4 holes|38.4|36.4|
