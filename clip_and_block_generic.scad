@@ -2,10 +2,11 @@ size =9.6;
 cornerSize = 3.6;
 model="F";
 
-holes = 1;
+holes = 6;
 
-xShift=6 ; // values for xShift, xShiftEnd : 1, 2, 3, 4, 5, 6
-yShift=0; // values for yShift : 1, 2, 3, 4, 5
+xShift=2 ; // values for xShift, xShiftEnd : 1, 2, 3, 4, 5, 6
+xShiftEnd = xShift;
+yShift=0; // values for yShift : 0, 1, 2, 3, 4, 5
 
 
 
