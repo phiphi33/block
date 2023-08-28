@@ -1,15 +1,15 @@
 size =9.6;
-model="UF";
+model="I";
 
-length1=3;
-length2=7;
-length3=1;
+length1=4;
+length2=6;
+length3=7;
 
-filename="battery-shield-usb.stl";
-holeArray=[[0,0,0],[1,0,0]];
+filename="generic-corner24.stl";
+holeArray=[[-1,0,0]];
 
-finalRotate=[90,0,0];
-finalMirror=[1,0,0];
+finalRotate=[0,0,270];
+finalMirror=[0,0,0];
 
 
 rotate([finalRotate[0], finalRotate[1], finalRotate[2]]) {
@@ -82,9 +82,9 @@ mirror([finalMirror[0], finalMirror[1], finalMirror[2]]) {
     }
 
 
-    //Model UF (U Flat)
-    if (model == "UF") {
 
+    //Model LF (L Flat)
+    if (model == "LF") {
         for (x = [0:length1-1]) {
             echo (x);
             translate([0,x*size,0]) holeCube();
@@ -92,14 +92,13 @@ mirror([finalMirror[0], finalMirror[1], finalMirror[2]]) {
        for (x = [0:length2-1]) {
             translate([x*size,(length1-1)*size,0]) holeCube();
         }  
-
        for (x = [0:length3-1]) {
             translate([x*size,(length2-1)*size,0]) holeCube();
         }          
     }
 
-    //Model LF (L Flat)
-    if (model == "LF") {
+    //Model UF (U Flat)
+    if (model == "UF") {
         for (x = [0:length1-1]) {
             echo (x);
             translate([0,x*size,0]) holeCube();
@@ -223,7 +222,7 @@ mirror([finalMirror[0], finalMirror[1], finalMirror[2]]) {
     // Model F => File
     if (model == "F") {
         import(str("imports/",filename));
-        if (len(holeArray) > 0) {
+        
         for(i= [0 : len(holeArray) - 1]) // rows
         {
             echo(str("row:",i));
@@ -232,13 +231,11 @@ mirror([finalMirror[0], finalMirror[1], finalMirror[2]]) {
             translate([holeArray[i][1]*size,holeArray[i][0]*size,holeArray[i][2]*size/2]) holeCube();
 
         }
-        }   
     }
 
     // Model FH => File Half (Half height
     if (model == "FH") {
         import(str("imports/",filename));
-        if (len(holeArray) > 0) {
         for(i= [0 : len(holeArray) - 1]) // rows
         {
             echo(str("row:",i));
@@ -253,7 +250,6 @@ mirror([finalMirror[0], finalMirror[1], finalMirror[2]]) {
 
         }
     }
-    }
 
 }//finalMirror
 }//finalRotate
@@ -264,14 +260,32 @@ module holeCube() {
         cube([size,size,size/2]);
         translate([size/2, size/2, 0]) cylinder (h = size/4, r1=8/2, r2=6.4/2, center=false, $fn=100 );
         translate([size/2, size/2, size/4])  cylinder (h = 4.8, r1=6.4/2, r2=8/2, center=false, $fn=100 );
+         // Beautiful
+        
+
     }
+
+    
 }
 
 module holeCubeHalf() {
-   import("imports/hole-cube-half.stl");
-    //difference() {
-    //    cube([size,size,size/2]);
-    //    translate([size/2, size/2, 0]) cylinder (h = size/4, r1=8/2, r2=6.4/2, center=false, $fn=100 );
-    //    translate([size/2, size/2, size/4])  cylinder (h = 4.8, r1=6.4/2, r2=8/2, center=false, $fn=100 );
-    //}
-}   
+   //import("imports/hole-cube-half.stl");
+    difference() {
+        cube([size,size,size/4]);
+        translate([size/2, size/2, 0]) cylinder (h = size/4, r1=8/2, r2=6.4/2, center=false, $fn=100 );
+        
+        //translate([size/2, size/2, size/4])  cylinder (h = 4.8, r1=6.4/2, r2=8/2, center=false, $fn=100 );
+    }
+    
+}  
+
+module pieSlice(a, r, h){
+  // a:angle, r:radius, h:height
+  color("red") {
+    difference() {
+        cube([r,r,h]);
+        rotate_extrude(angle=a) square([r,h]);
+    }
+  }
+}
+//pieSlice(90,50,5);

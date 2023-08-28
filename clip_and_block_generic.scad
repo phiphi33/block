@@ -1,12 +1,26 @@
+// If width <> 0 and height <> 0, holes, xShift and 
+// yShift are computed. size of the module in mm.
+// holes are on the width size
+width = 39.5; 
+height = 26.8; 
+
+margin= 1; // how many millimeter more on two side ?
+
+
 size =9.6;
 cornerSize = 3.6;
 model="F";
 
-holes = 6;
+holes = 3;
 
-xShift=2 ; // values for xShift, xShiftEnd : 1, 2, 3, 4, 5, 6
+xShift=6 ; // values for xShift, xShiftEnd : 1, 2, 3, 4, 5, 6
 xShiftEnd = xShift;
-yShift=0; // values for yShift : 0, 1, 2, 3, 4, 5
+yShift=5; // values for yShift : 0, 1, 2, 3, 4, 5
+
+// compute holes, xShift and yShift if width and height are specified
+holes = (width > 0 && height > 0) ? ceil((width + margin + 2) / size) : holes;  // 2 is here because we need at least 1 mm on each side
+xShift = (width > 0 && height > 0) ? round((holes * size - width) / 2) : xShift;
+yShift = (width > 0 && height > 0) ? round((ceil(height / size) * size) - (height + margin)) : yShift ;
 
 
 
