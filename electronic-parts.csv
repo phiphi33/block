@@ -1,4 +1,9 @@
 Directory;Filename;STL_source;Model;holeArray;finalRotate;finalMirror
+sg90;sg90-helix-2.stl;sg90-helix.stl;F;[-1,0,0],[-1,1,0];[0,270,0];[]
+sg90;sg90-helix-4.stl;sg90-helix.stl;F;[-1,0,0],[-1,1,0],[1,0,0],[1,1,0];[0,270,0];[]
+sg90;sg90-helix-1.stl;sg90-helix.stl;F;[0,-1,0];[0,270,0];[]
+breadboard;breadboard25-2.stl;breadboard25.stl;F;[0,-1,0],[1,-1,0];[];[]
+breadboard;breadboard25-3.stl;breadboard25.stl;F;[-1,0,0],[-1,1,0],[-1,2,0];[];[]
 oled-128x64;oled-128x64-top-2side.stl;oled-128x64-top.stl;FH;[-1,0,0],[-1,1,0],[-1,2,0],[3,0,0],[3,1,0],[3,2,0];[0,0,0];[0,0,0]
 oled-128x64;oled-128x64-top-1side.stl;oled-128x64-top.stl;FH;[-1,0,0],[-1,1,0],[-1,2,0];[0,0,0];[0,0,0]
 oled-128x64;oled-128x64-bottom-2side.stl;oled-128x64-bottom.stl;FH;[-1,0,0],[-1,1,0],[-1,2,0],[3,0,0],[3,1,0],[3,2,0];[0,0,0];[0,0,0]
