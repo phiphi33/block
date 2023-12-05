@@ -1092,16 +1092,16 @@ size =9.6;
 // 3 holes between : 23 teeths (circle : 20.5mm) => Try 24
 // 4 holes between : 33 teeths (circle : 30.5mm)
 type1 = "spur";
-tooth1 = 24;
+tooth1 = 14;
 type2 = "spur";
-tooth2 = 0;
+tooth2 = 14;
 holeArray=0; // 0 => Only in center, 1 => 5 holes, 2 => 9 holes...
 
 difference() {
     if (type1 == "spur") 
         spur_gear (modul=2, tooth_number=tooth1, width=4.8, bore=2, pressure_angle=25, helix_angle=0, optimized=false);
     if (type1 == "bevel") 
-        bevel_gear(modul=2, tooth_number=tooth1,  partial_cone_angle=45, tooth_width=5, bore=2, pressure_angle=25, helix_angle=0);
+        bevel_gear(modul=2, tooth_number=tooth1,  partial_cone_angle=45, tooth_width=6.2, bore=2, pressure_angle=25, helix_angle=0);
     union() {
         translate([-size/2, -size/2, 0]) hole(); // center
         if (holeArray >= 1) {
@@ -1130,9 +1130,12 @@ if (tooth2 > 0) {
     difference() {
         if (type2 == "spur")         
             spur_gear (modul=2, tooth_number=tooth2, width=4.8, bore=2, pressure_angle=25, helix_angle=0, optimized=false);    
-            
-            cylinder (h = size/4, r1=8/2, r2=6.4/2, center=false, $fn=100 );
-            cylinder (h = 4.81, r1=6.4/2, r2=8/2, center=false, $fn=100 );  
+        if (type2 == "bevel") 
+            bevel_gear(modul=2, tooth_number=tooth2,  partial_cone_angle=45, tooth_width=6.2, bore=2, pressure_angle=25, helix_angle=0);            
+        union() {
+            translate([-size/2, -size/2, 4.8]) hole(); // center
+        }
+        
     }            
     }
 }
