@@ -3,13 +3,13 @@
 		2012.   License, GPL v2 or later
 **************************************************/
 // https://www.thingiverse.com/thing:17514/files
-type="dc-gearbox"; // clip, washer, dc-gearbox
+type="sg90"; // clip, washer, dc-gearbox, sg90
 
-dia_out = 1;//65;
+dia_out = 45;//65;
 height = 10;
-spoke_count = 8;
+spoke_count = 5;
 spoke_thickness = 0.5;
-tread_thickness = 0.5;
+tread_thickness = 1;
 
  r1=3.2; 
  r2=2.75;
@@ -135,6 +135,22 @@ if (type == "dc-gearbox") {
             translate([-1.9-2,-3,0-washer_height])
                 cube([2,6,height+washer_height]);
             
+        }
+    }
+}
+
+if (type == "sg90") {
+    
+    mirror([0,0,1]) {
+        union() {
+            difference() {
+                wheel();
+                cylinder(h=7+washer_height, r1=r1, r2=r2 , center=false);
+            }
+            
+            translate([0,0,height-8]) { // 8mm is the height of sg90-wheel.stl
+                import("imports/sg90-wheel.stl");   
+            }
         }
     }
 }
