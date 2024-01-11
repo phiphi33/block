@@ -118,7 +118,7 @@ module corner() {
 
 
 module holeCube() {
-    import("imports/hole-cube.stl");
+    import("imports/hole-cube-rounded.stl");
     /*difference() {
         cube([size,size,size/2]);
         translate([size/2, size/2, 0]) cylinder (h = size/4, r1=8/2, r2=6.4/2, center=false, $fn=100 );
