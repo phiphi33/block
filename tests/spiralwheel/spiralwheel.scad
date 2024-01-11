@@ -3,12 +3,12 @@
 		2012.   License, GPL v2 or later
 **************************************************/
 // https://www.thingiverse.com/thing:17514/files
-type="sg90"; // clip, washer, dc-gearbox, sg90
+type="clip"; // clip, washer, dc-gearbox, sg90
 
 dia_out = 45;//65;
 height = 10;
 spoke_count = 5;
-spoke_thickness = 0.5;
+spoke_thickness = 1;
 tread_thickness = 1;
 
  r1=3.2; 

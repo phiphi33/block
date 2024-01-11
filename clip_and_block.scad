@@ -1,16 +1,17 @@
 size =9.6;
-model="UF";
+model="F";
 
-length1=3;
+length1=4;
 length2=7;
 length3=1;
 
-filename="battery-shield-usb.stl";
-holeArray=[[0,0,0],[1,0,0]];
+filename="sg90-4x1.stl";
+holeArray=[[-1,0,0],[-1,1,0],[4,0,0],[4,1,0]];
 
-finalRotate=[90,0,0];
-finalMirror=[1,0,0];
+finalRotate=[0,0,0];
+finalMirror=[0,0,0];
 
+rounded = true;
 
 rotate([finalRotate[0], finalRotate[1], finalRotate[2]]) {
 mirror([finalMirror[0], finalMirror[1], finalMirror[2]]) {    
@@ -259,12 +260,15 @@ mirror([finalMirror[0], finalMirror[1], finalMirror[2]]) {
 }//finalRotate
 
 module holeCube() {
-    //import("imports/hole-cube.stl");
-    difference() {
+    if (rounded)
+        import("imports/hole-cube-rounded.stl");
+    else
+        import("imports/hole-cube.stl");
+    /*difference() {
         cube([size,size,size/2]);
         translate([size/2, size/2, 0]) cylinder (h = size/4, r1=8/2, r2=6.4/2, center=false, $fn=100 );
         translate([size/2, size/2, size/4])  cylinder (h = 4.8, r1=6.4/2, r2=8/2, center=false, $fn=100 );
-    }
+    }*/
 }
 
 module holeCubeHalf() {
