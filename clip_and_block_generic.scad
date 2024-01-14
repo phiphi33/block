@@ -4,7 +4,7 @@
 width = 57.7; 
 height = 30.9; 
 
-margin= 0.2; // how many millimeter more on two side ?
+margin= 0.4; // how many millimeter more on two side ?
 
 size =9.6;
 cornerSize = 3.6;
