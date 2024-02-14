@@ -1,8 +1,8 @@
 // If width <> 0 and height <> 0, holes, xShift and 
 // yShift are computed. size of the module in mm.
 // holes are on the width size
-width = 57.7; 
-height = 30.9; 
+width = 33.5; 
+height = 26.4; 
 
 margin= 0.4; // how many millimeter more on two side ?
 
