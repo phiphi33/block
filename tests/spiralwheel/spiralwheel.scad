@@ -3,7 +3,7 @@
 		2012.   License, GPL v2 or later
 **************************************************/
 // https://www.thingiverse.com/thing:17514/files
-type="clip"; // clip, washer, dc-gearbox, sg90
+type="sg90"; // clip, washer, dc-gearbox, sg90
 
 dia_out = 45;//65;
 height = 10;
